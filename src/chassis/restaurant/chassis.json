@@ -1,0 +1,143 @@
+{
+  "id": "restaurant",
+  "name": "Restaurant & Food",
+  "description": "Restaurants, cafes, bars, bakeries, food trucks, and catering businesses — with menus, galleries, and reservations.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "gallery",
+      "component": "MediaGallery",
+      "domain": "content",
+      "required": false,
+      "contentKey": "gallery",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "pricing",
+      "component": "PricingTable",
+      "domain": "content",
+      "required": true,
+      "contentKey": "pricing",
+      "page": "menu"
+    },
+    {
+      "id": "map",
+      "component": "MapIntegration",
+      "domain": "content",
+      "required": false,
+      "contentKey": "map",
+      "page": "contact"
+    },
+    {
+      "id": "rsvp",
+      "component": "RSVPForm",
+      "domain": "communication",
+      "required": false,
+      "contentKey": "rsvp",
+      "page": "contact"
+    },
+    {
+      "id": "social",
+      "component": "SocialShareBar",
+      "domain": "communication",
+      "required": false,
+      "contentKey": "social",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, menu, and contact with top navigation"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Elegant single-scroll with hero, menu highlights, and reservation"
+      }
+    ],
+    "themes": [
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "description": "Warm terracotta and golden tones evoking an inviting dining atmosphere"
+      },
+      {
+        "id": "midnight",
+        "name": "Midnight",
+        "description": "Deep navy and gold accents for an upscale evening ambiance"
+      },
+      {
+        "id": "forest",
+        "name": "Forest",
+        "description": "Earthy greens and natural wood tones reflecting farm-to-table freshness"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with editorial spacing and bold hierarchy"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Elegant serif headings with refined body text for a timeless feel"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Rounded, warm type that feels casual and welcoming"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "sunset",
+    "typography": "classic"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline for the restaurant", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text about cuisine or atmosphere", "required": true, "maxLength": 160 },
+    { "key": "pricing.headline", "type": "text", "label": "Menu Heading", "description": "Title for the menu section", "required": true, "maxLength": 60 },
+    { "key": "pricing.tiers", "type": "list", "label": "Menu Categories", "description": "Menu sections with dishes and prices", "required": true },
+    { "key": "gallery.items", "type": "list", "label": "Gallery Photos", "description": "Food and atmosphere photos", "required": false },
+    { "key": "stats.items", "type": "list", "label": "Restaurant Stats", "description": "Key numbers to highlight", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Reviews", "description": "Customer reviews and quotes", "required": false },
+    { "key": "map.address", "type": "address", "label": "Restaurant Address", "description": "Physical location for the map", "required": false },
+    { "key": "rsvp.eventName", "type": "text", "label": "Reservation Label", "description": "Name for the reservation form", "required": false, "maxLength": 80 }
+  ],
+  "keywords": ["restaurant", "cafe", "bakery", "pizza", "sushi", "bar", "coffee", "catering", "food truck", "brewery", "winery", "deli"],
+  "primaryDomains": ["content", "communication"]
+}

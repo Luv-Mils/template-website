@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Summit Realty Group"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Our Team", "href": "#team" },
+      { "label": "Reviews", "href": "#testimonials" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Free Home Valuation",
+      "href": "#cta"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Your Denver Home Experts",
+    "subheadline": "Summit Realty Group is a full-service real estate team specializing in residential sales, rentals, commercial properties, and property management across the Denver metro area. With 15 years of local market expertise, we help you buy, sell, or invest with confidence.",
+    "primaryCTA": {
+      "label": "Get Your Free Valuation",
+      "href": "#cta"
+    },
+    "secondaryCTA": {
+      "label": "Meet Our Agents",
+      "href": "#team"
+    },
+    "backgroundImage": ""
+  },
+  "stats": {
+    "items": [
+      { "value": 1200, "suffix": "+", "label": "Homes Sold" },
+      { "value": 15, "label": "Years in Denver" },
+      { "value": 500, "prefix": "$", "suffix": "M+", "label": "Total Sales Volume" },
+      { "value": 4.9, "label": "Client Rating" }
+    ],
+    "layout": "grid",
+    "animateOnScroll": true
+  },
+  "services": {
+    "headline": "How We Help",
+    "subheadline": "Comprehensive real estate services for every stage of your property journey",
+    "columns": 3,
+    "items": [
+      {
+        "title": "Buying",
+        "description": "From first-time homebuyers to seasoned investors, we guide you through every step of the purchase process. Market analysis, neighborhood tours, offer strategy, inspection coordination, and closing support — all tailored to your goals and budget."
+      },
+      {
+        "title": "Selling",
+        "description": "Our data-driven marketing approach includes professional staging, photography, drone footage, and targeted digital campaigns. We price strategically, negotiate aggressively, and close efficiently. Our average listing sells within 18 days of going live."
+      },
+      {
+        "title": "Renting",
+        "description": "Whether you are looking for a rental or listing a property for lease, our rental division handles tenant screening, lease agreements, and move-in coordination. We manage over 200 rental units across Denver, Lakewood, and Aurora."
+      },
+      {
+        "title": "Property Management",
+        "description": "Full-service property management for landlords who want hands-off ownership. Tenant placement, rent collection, maintenance coordination, financial reporting, and lease renewals — all for a flat monthly fee with no hidden charges."
+      },
+      {
+        "title": "Commercial Real Estate",
+        "description": "Office spaces, retail locations, and mixed-use developments in Denver's fastest-growing corridors. Our commercial team handles site selection, lease negotiation, and investment analysis for businesses and developers."
+      },
+      {
+        "title": "Relocation Services",
+        "description": "Moving to Denver from out of state? Our relocation specialists provide virtual tours, neighborhood guides, school district information, and transition support to make your move seamless from anywhere in the country."
+      }
+    ]
+  },
+  "team": {
+    "headline": "Meet Your Agents",
+    "subheadline": "Local experts who know Denver neighborhoods like their own backyard",
+    "members": [
+      {
+        "name": "Ryan Mitchell",
+        "title": "Founding Broker & Lead Agent",
+        "bio": "Denver native with 15 years of experience and over 600 transactions closed. Specializes in luxury homes in Cherry Creek, Wash Park, and Hilltop. Licensed broker, CRS and ABR certified.",
+        "photo": ""
+      },
+      {
+        "name": "Camille Washington",
+        "title": "Senior Agent — First-Time Buyers",
+        "bio": "Dedicated to making homeownership accessible. Specializes in working with first-time buyers navigating FHA, VA, and down payment assistance programs across the Denver metro. 8 years in real estate.",
+        "photo": ""
+      },
+      {
+        "name": "Jorge Delgado",
+        "title": "Commercial & Investment Agent",
+        "bio": "Focuses on commercial leasing, multi-family investments, and development opportunities along the I-25 corridor and RiNo district. MBA from CU Denver, former commercial lending analyst.",
+        "photo": ""
+      },
+      {
+        "name": "Aisha Patel",
+        "title": "Relocation & Rental Specialist",
+        "bio": "Helps families and professionals relocating to Denver find the right neighborhood, school district, and home. Manages our rental portfolio of 200+ units. Fluent in English, Hindi, and Spanish.",
+        "photo": ""
+      }
+    ],
+    "columns": 4,
+    "variant": "cards"
+  },
+  "testimonials": {
+    "headline": "What Our Clients Say",
+    "items": [
+      {
+        "quote": "Ryan and his team sold our home in 12 days — $30,000 over asking. Their staging advice, photography, and pricing strategy made all the difference. We could not have asked for a better experience.",
+        "author": {
+          "name": "Kevin & Laura Nguyen",
+          "role": "Sellers, Wash Park"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "As first-time buyers, we were nervous about the entire process. Camille walked us through every step, found us a home we love in our budget, and even connected us with a down payment assistance program we did not know existed.",
+        "author": {
+          "name": "Tyler Brooks",
+          "role": "First-Time Buyer, Lakewood"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We relocated from Chicago with two kids and no idea where to start. Aisha scheduled virtual tours, gave us detailed school comparisons, and had our lease signed before we even landed. Incredible service.",
+        "author": {
+          "name": "The Ramirez Family",
+          "role": "Relocation, Highlands Ranch"
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "cta": {
+    "headline": "Get Your Free Home Valuation",
+    "description": "Curious what your home is worth in today's Denver market? Our agents provide a complimentary, data-driven market analysis with no obligation. Know your options before you decide.",
+    "primaryCTA": {
+      "label": "Request Free Valuation",
+      "href": "#contact"
+    },
+    "secondaryCTA": {
+      "label": "Browse Listings",
+      "href": "#services"
+    },
+    "variant": "highlight"
+  },
+  "map": {
+    "variant": "embed",
+    "center": {
+      "lat": 39.7392,
+      "lng": -104.9903
+    },
+    "zoom": 13,
+    "address": {
+      "street": "1801 Blake Street, Suite 300",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "showDirectionsLink": true,
+    "contactCard": {
+      "name": "Summit Realty Group",
+      "phone": "(303) 555-0198",
+      "email": "hello@summitrealty.com",
+      "hours": "Mon-Fri: 9am-6pm, Sat: 10am-4pm, Sun: By Appointment"
+    }
+  },
+  "contact": {
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thank you for reaching out. One of our agents will contact you within 24 hours.",
+    "submitLabel": "Get in Touch",
+    "headline": "Contact Us",
+    "description": "Whether you are buying, selling, or just exploring your options, we are here to help. Reach out and a local agent will follow up personally."
+  },
+  "footer": {
+    "brand": {
+      "name": "Summit Realty Group",
+      "description": "Full-service real estate in Denver, Colorado. Buying, selling, renting, and property management since 2010."
+    },
+    "linkGroups": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Buy a Home", "href": "#services" },
+          { "label": "Sell a Home", "href": "#services" },
+          { "label": "Property Management", "href": "#services" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Our Team", "href": "#team" },
+          { "label": "Reviews", "href": "#testimonials" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Free Valuation", "href": "#cta" },
+          { "label": "Relocation Guide", "href": "#services" },
+          { "label": "Directions", "href": "#map" }
+        ]
+      }
+    ],
+    "copyright": "2024 Summit Realty Group. All rights reserved. Licensed in Colorado."
+  }
+}

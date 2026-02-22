@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Honeybee Candle Co."
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Products", "href": "#services" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Reviews", "href": "#testimonials" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": {
+      "label": "Shop Now",
+      "href": "#services"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Hand-Poured, Planet-Friendly",
+    "subheadline": "Honeybee Candle Co. crafts small-batch soy candles using 100% natural wax, cotton wicks, and premium fragrance oils. Each candle is hand-poured in our Nashville studio with care for both your home and the environment.",
+    "primaryCTA": {
+      "label": "Shop the Collection",
+      "href": "#services"
+    },
+    "secondaryCTA": {
+      "label": "Subscribe & Save",
+      "href": "#cta"
+    },
+    "backgroundImage": ""
+  },
+  "stats": {
+    "items": [
+      { "value": 50000, "suffix": "+", "label": "Candles Sold" },
+      { "value": 100, "suffix": "%", "label": "Natural Soy Wax" },
+      { "value": 30, "suffix": "+", "label": "Signature Scents" },
+      { "value": 4.9, "label": "Customer Rating" }
+    ],
+    "layout": "grid",
+    "animateOnScroll": true
+  },
+  "services": {
+    "headline": "Our Collections",
+    "subheadline": "From seasonal favorites to everyday classics, find the perfect scent for every space and occasion",
+    "columns": 3,
+    "items": [
+      {
+        "title": "Seasonal Collection",
+        "description": "Limited-edition scents inspired by the changing seasons. From Autumn Harvest and Winter Hearth to Spring Meadow and Summer Citrus, each collection captures the essence of the moment."
+      },
+      {
+        "title": "Signature Scents",
+        "description": "Our year-round bestsellers including French Lavender, Eucalyptus Mint, Vanilla Bourbon, and Fireside Amber. These are the scents our customers return to again and again."
+      },
+      {
+        "title": "Gift Sets",
+        "description": "Curated candle collections beautifully packaged for birthdays, holidays, housewarmings, and thank-you gifts. Available in sets of three, five, or custom assortments."
+      },
+      {
+        "title": "Candle Subscription",
+        "description": "A new hand-picked scent delivered to your door every month. Subscribers save 15% on every shipment and get early access to seasonal launches before they sell out."
+      },
+      {
+        "title": "Home Fragrance",
+        "description": "Beyond candles — explore our line of reed diffusers, room sprays, and wax melts. Same premium fragrances, different ways to fill your space with natural scent."
+      },
+      {
+        "title": "Custom Orders",
+        "description": "Personalized candles for weddings, corporate gifts, and special occasions. Choose your scent, vessel, and label design. Minimum order of 25 units with a 3-week lead time."
+      }
+    ]
+  },
+  "testimonials": {
+    "headline": "What Our Customers Say",
+    "items": [
+      {
+        "quote": "I have tried dozens of candle brands and Honeybee is hands-down the best. The soy wax burns cleanly, the scent throw is incredible, and they last significantly longer than anything else I have bought at twice the price.",
+        "author": {
+          "name": "Priya Sharma",
+          "role": "Subscription Member"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "I ordered the gift set for my sister's birthday and she loved it so much she immediately subscribed. The packaging is gorgeous, the scents are sophisticated, and you can tell these are made with real care.",
+        "author": {
+          "name": "Olivia Bennett",
+          "role": "Repeat Customer"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We used Honeybee for our wedding favors — 150 custom candles with our names and date on the label. They were beautiful, smelled amazing, and our guests kept asking where we got them. The team was incredibly easy to work with.",
+        "author": {
+          "name": "Daniel & Megan Cruz",
+          "role": "Custom Order"
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "gallery": {
+    "items": [
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Signature candles styled on a reclaimed wood coffee table with dried botanicals",
+        "category": "Home"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Gift set packaging with hand-tied ribbon and branded kraft paper",
+        "category": "Gift"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Our Nashville studio during the hand-pouring process",
+        "category": "Behind the Scenes"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Autumn Harvest collection with pumpkin, cinnamon, and clove notes",
+        "category": "Seasonal"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Reed diffusers and room sprays in the Home Fragrance line",
+        "category": "Home"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Custom wedding favor candles with personalized labels",
+        "category": "Gift"
+      }
+    ],
+    "layout": "masonry",
+    "columns": 3,
+    "lightbox": true,
+    "filterByCategory": true
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What kind of wax do you use?",
+        "answer": "All of our candles are made with 100% natural soy wax sourced from U.S. farms. Soy wax burns cleaner and longer than paraffin, produces less soot, and is fully biodegradable. We never use paraffin, palm, or synthetic wax blends."
+      },
+      {
+        "question": "How long do your candles burn?",
+        "answer": "Our standard 9 oz candles burn for approximately 50-55 hours. Our large 16 oz candles burn for 80-90 hours. For the best burn, we recommend trimming the wick to 1/4 inch before each use and burning for at least 2 hours per session to achieve a full melt pool."
+      },
+      {
+        "question": "Are your candles safe for pets?",
+        "answer": "Our soy candles use phthalate-free fragrance oils and cotton wicks, making them a safer choice for homes with pets compared to paraffin candles. However, we recommend keeping lit candles out of reach and ensuring good ventilation. If your pet has specific sensitivities, consult your veterinarian."
+      },
+      {
+        "question": "Do you offer international shipping?",
+        "answer": "We currently ship throughout the United States and Canada. International shipping is available to select countries in Europe and Australia. Shipping costs and delivery times vary by destination. All orders over $75 qualify for free domestic shipping."
+      },
+      {
+        "question": "Can I cancel or modify my subscription?",
+        "answer": "Absolutely. You can pause, skip a month, or cancel your subscription at any time from your account dashboard. Changes made before the 15th of the month apply to that month's shipment. No cancellation fees, no commitments."
+      }
+    ],
+    "searchable": false,
+    "allowMultipleOpen": true
+  },
+  "cta": {
+    "headline": "Subscribe & Save 15% on Every Shipment",
+    "description": "Join the Honeybee family and receive a hand-picked seasonal candle delivered to your door every month. Subscribers get 15% off, early access to new scents, and free shipping on every order.",
+    "primaryCTA": {
+      "label": "Start Your Subscription",
+      "href": "#services"
+    },
+    "secondaryCTA": {
+      "label": "Send a Gift",
+      "href": "#services"
+    },
+    "variant": "highlight"
+  },
+  "social": {
+    "url": "",
+    "title": "Honeybee Candle Co. — Hand-Poured, Planet-Friendly Soy Candles",
+    "platforms": ["twitter", "facebook", "linkedin", "email", "copy"],
+    "variant": "floating"
+  },
+  "footer": {
+    "brand": {
+      "name": "Honeybee Candle Co.",
+      "description": "Small-batch, hand-poured soy candles crafted in Nashville, Tennessee. Natural wax, premium scents, planet-friendly."
+    },
+    "linkGroups": [
+      {
+        "title": "Shop",
+        "links": [
+          { "label": "All Collections", "href": "#services" },
+          { "label": "Gift Sets", "href": "#services" },
+          { "label": "Subscription", "href": "#cta" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Our Story", "href": "#faq" },
+          { "label": "Gallery", "href": "#gallery" },
+          { "label": "Reviews", "href": "#testimonials" }
+        ]
+      },
+      {
+        "title": "Help",
+        "links": [
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Shipping & Returns", "href": "#faq" },
+          { "label": "Contact Us", "href": "mailto:hello@honeybeecandle.co" }
+        ]
+      }
+    ],
+    "copyright": "2024 Honeybee Candle Co. All rights reserved."
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Evergreen Family Dental"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Our Team", "href": "#team" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Book Appointment", "href": "#booking" }
+    ],
+    "cta": {
+      "label": "Book Now",
+      "href": "#booking"
+    }
+  },
+  "hero": {
+    "variant": "split",
+    "headline": "Gentle Care for Every Smile",
+    "subheadline": "Comprehensive family dentistry in Seattle's Ballard neighborhood. From first teeth to full restorations, we make every visit comfortable — because your dental health shouldn't feel like a chore.",
+    "primaryCTA": {
+      "label": "Book an Appointment",
+      "href": "#booking"
+    },
+    "secondaryCTA": {
+      "label": "Meet Our Team",
+      "href": "#team"
+    },
+    "backgroundImage": "",
+    "badges": ["Accepting New Patients", "Most Insurance Accepted", "Same-Day Emergency"]
+  },
+  "services": {
+    "headline": "Our Services",
+    "subheadline": "From preventive cleanings to advanced restorations, we provide complete dental care for patients of all ages under one roof.",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "sparkles",
+        "title": "Cleanings & Exams",
+        "description": "Thorough professional cleanings, digital X-rays, and comprehensive oral exams. We focus on prevention so you spend less time in the chair long-term.",
+        "link": "#booking"
+      },
+      {
+        "icon": "star",
+        "title": "Cosmetic Dentistry",
+        "description": "Professional whitening, porcelain veneers, bonding, and smile makeovers. See your results in advance with our digital smile design technology.",
+        "link": "#booking"
+      },
+      {
+        "icon": "alignLeft",
+        "title": "Orthodontics",
+        "description": "Clear aligners and traditional braces for teens and adults. Complimentary consultations with 3D treatment planning and flexible payment options.",
+        "link": "#booking"
+      },
+      {
+        "icon": "anchor",
+        "title": "Dental Implants",
+        "description": "Single tooth replacements, implant-supported bridges, and full-arch restorations. Placed and restored in-house — no referral to a separate surgeon needed.",
+        "link": "#booking"
+      },
+      {
+        "icon": "zap",
+        "title": "Emergency Care",
+        "description": "Same-day appointments for toothaches, broken teeth, lost crowns, and dental trauma. Call our emergency line and we'll fit you in within hours.",
+        "link": "#booking"
+      },
+      {
+        "icon": "heart",
+        "title": "Pediatric Dentistry",
+        "description": "Gentle, patient care designed for kids ages 1 through 17. Our kid-friendly operatories and staff make first dental visits something to look forward to.",
+        "link": "#booking"
+      }
+    ]
+  },
+  "team": {
+    "headline": "Meet Your Care Team",
+    "subheadline": "Our team combines decades of clinical experience with a genuine commitment to making dental care comfortable and accessible.",
+    "members": [
+      {
+        "name": "Dr. Lisa Nakamura, DDS",
+        "title": "Founder & Lead Dentist",
+        "bio": "University of Washington School of Dentistry. 20 years of experience in family and cosmetic dentistry. Fellow of the Academy of General Dentistry. Known for her calm demeanor and meticulous attention to detail.",
+        "photo": ""
+      },
+      {
+        "name": "Dr. James Okafor, DMD",
+        "title": "Associate Dentist",
+        "bio": "OHSU School of Dentistry. Specializes in implant placement and orthodontics. Completed advanced implant training at the Kois Center. Fluent in English and Igbo.",
+        "photo": ""
+      },
+      {
+        "name": "Dr. Priya Sharma, DDS",
+        "title": "Pediatric Dentist",
+        "bio": "Tufts University School of Dental Medicine with pediatric residency at Seattle Children's. Board-certified pediatric dentist who genuinely loves working with kids and anxious patients.",
+        "photo": ""
+      },
+      {
+        "name": "Hannah Reeves, RDH",
+        "title": "Lead Dental Hygienist",
+        "bio": "15 years of clinical experience with certification in laser therapy and periodontal treatment. Patients appreciate her thoroughness and gentle touch.",
+        "photo": ""
+      }
+    ],
+    "columns": 4,
+    "variant": "cards"
+  },
+  "stats": {
+    "items": [
+      { "value": 15000, "suffix": "+", "label": "Patients Served" },
+      { "value": 20, "label": "Years in Practice" },
+      { "value": 4.9, "label": "Google Rating" },
+      { "value": 6, "label": "Dental Professionals" }
+    ],
+    "layout": "horizontal",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "Patient Reviews",
+    "items": [
+      {
+        "quote": "I avoided the dentist for six years because of anxiety. Dr. Nakamura talked me through every step, never rushed, and made me feel like a human, not a number. I actually look forward to my cleanings now.",
+        "author": {
+          "name": "Kevin Marsh",
+          "role": "Patient since 2021",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Dr. Sharma is the reason my daughter asks when her next dentist appointment is. She turned what used to be tears and meltdowns into something my kid genuinely enjoys.",
+        "author": {
+          "name": "Aiko Tanaka",
+          "role": "Parent",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Had a crown come off on a Saturday morning. Called their emergency line, and Dr. Okafor had me in the chair within two hours. Re-cemented and out the door. Outstanding responsiveness.",
+        "author": {
+          "name": "Michael Brennan",
+          "role": "Patient since 2019",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "The clear aligner treatment Dr. Okafor recommended straightened my teeth in 8 months. The digital preview sold me — I could see the end result before I started. Worth every penny.",
+        "author": {
+          "name": "Jasmine Lewis",
+          "role": "Orthodontics Patient",
+          "avatar": ""
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Are you accepting new patients?",
+        "answer": "Yes! We welcome new patients of all ages. Your first visit includes a comprehensive exam, digital X-rays, and a cleaning. We'll create a personalized treatment plan and walk you through everything before any work begins."
+      },
+      {
+        "question": "What insurance do you accept?",
+        "answer": "We accept most major dental insurance plans including Delta Dental, Premera, Cigna, Aetna, MetLife, and Guardian. We also offer an in-house membership plan for uninsured patients that covers two cleanings, exams, and X-rays per year plus 20% off all treatments."
+      },
+      {
+        "question": "Do you offer sedation for anxious patients?",
+        "answer": "Yes. We offer nitrous oxide (laughing gas) for mild anxiety and oral conscious sedation for patients who need more support. Dr. Nakamura has extensive training in sedation dentistry. We'll discuss your options during your consultation."
+      },
+      {
+        "question": "What should I expect at my first appointment?",
+        "answer": "Plan for about 90 minutes. We'll take digital X-rays, perform a thorough exam, complete a professional cleaning, and discuss any findings with you. We believe in informed consent — no treatment starts until you understand the what, why, and cost."
+      },
+      {
+        "question": "Do you handle dental emergencies?",
+        "answer": "Absolutely. We reserve same-day slots for emergencies. Call our main number and select the emergency option. For after-hours emergencies, the voicemail provides Dr. Nakamura's direct cell for urgent situations like trauma or severe pain."
+      },
+      {
+        "question": "What payment options do you offer?",
+        "answer": "We accept cash, all major credit cards, HSA/FSA accounts, and CareCredit financing. For larger treatments like implants or orthodontics, we offer interest-free payment plans of 6 or 12 months. Our treatment coordinator will walk you through your options."
+      }
+    ],
+    "searchable": false,
+    "allowMultipleOpen": false
+  },
+  "map": {
+    "variant": "embed",
+    "center": {
+      "lat": 47.6687,
+      "lng": -122.3845
+    },
+    "zoom": 15,
+    "address": {
+      "street": "5412 Ballard Ave NW",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98107"
+    },
+    "showDirectionsLink": true,
+    "contactCard": {
+      "name": "Evergreen Family Dental",
+      "phone": "(206) 555-0319",
+      "email": "hello@evergreenfamilydental.com",
+      "hours": "Mon–Thu 8AM–5PM | Fri 8AM–3PM | Emergency: 24/7 line"
+    }
+  },
+  "booking": {
+    "steps": ["service", "datetime", "info", "confirm"],
+    "services": [
+      {
+        "id": "cleaning",
+        "name": "Cleaning & Exam",
+        "duration": 60,
+        "price": 150,
+        "description": "Professional cleaning, digital X-rays, and comprehensive oral exam"
+      },
+      {
+        "id": "consultation",
+        "name": "New Patient Consultation",
+        "duration": 30,
+        "price": 0,
+        "description": "Meet the team, discuss your goals, and get a personalized treatment plan — no charge"
+      },
+      {
+        "id": "whitening",
+        "name": "Professional Whitening",
+        "duration": 90,
+        "price": 350,
+        "description": "In-office Zoom whitening treatment with custom take-home trays for maintenance"
+      }
+    ],
+    "availability": {}
+  },
+  "contact": {
+    "headline": "Contact Us",
+    "description": "Have a question or prefer to reach us directly? Fill out the form below and our front desk team will respond within one business day.",
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thank you! Our team will get back to you within one business day.",
+    "submitLabel": "Send Message"
+  },
+  "footer": {
+    "brand": {
+      "name": "Evergreen Family Dental",
+      "description": "Comprehensive family dentistry in Seattle's Ballard neighborhood. Accepting new patients."
+    },
+    "linkGroups": [
+      {
+        "title": "Care",
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "Our Team", "href": "#team" },
+          { "label": "Book Appointment", "href": "#booking" },
+          { "label": "Emergency Care", "href": "tel:+12065550319" }
+        ]
+      },
+      {
+        "title": "Info",
+        "links": [
+          { "label": "New Patients", "href": "#faq" },
+          { "label": "Insurance & Payment", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" },
+          { "label": "Directions", "href": "#map" }
+        ]
+      }
+    ],
+    "copyright": "2024 Evergreen Family Dental. All rights reserved."
+  }
+}

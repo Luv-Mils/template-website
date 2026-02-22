@@ -1,0 +1,266 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Flowdeck"
+    },
+    "links": [
+      { "label": "Features", "href": "#services" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Customers", "href": "#testimonials" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "cta": {
+      "label": "Start Free",
+      "href": "#pricing"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Work Flows Better",
+    "subheadline": "The project management platform that gets out of your way. Boards, timelines, chat, and automations — all in one place, with zero learning curve.",
+    "primaryCTA": {
+      "label": "Start Free — No Card Required",
+      "href": "#pricing"
+    },
+    "secondaryCTA": {
+      "label": "See How It Works",
+      "href": "#services"
+    },
+    "backgroundImage": "",
+    "badges": ["Free Forever Plan", "4.8 on G2", "SOC 2 Certified"]
+  },
+  "services": {
+    "headline": "Everything Your Team Needs",
+    "subheadline": "Six core features that replace a dozen disconnected tools. No more tab-switching, no more lost context.",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "layout",
+        "title": "Task Boards",
+        "description": "Kanban, list, and timeline views that sync in real time. Drag tasks between columns, set priorities, and filter by assignee, label, or due date. Switch views without losing context."
+      },
+      {
+        "icon": "clock",
+        "title": "Time Tracking",
+        "description": "One-click timers built into every task. See where hours go with weekly reports, billable vs. non-billable breakdowns, and client-ready exports. No third-party integration needed."
+      },
+      {
+        "icon": "messageCircle",
+        "title": "Team Chat",
+        "description": "Threaded conversations attached to projects and tasks. Mention teammates, share files, and make decisions without leaving the context of the work. Replaces Slack for project communication."
+      },
+      {
+        "icon": "folder",
+        "title": "File Sharing",
+        "description": "Drag and drop files directly into tasks and conversations. 10 GB storage on Free, unlimited on Team. Version history, preview for 50+ file types, and one-click client sharing links."
+      },
+      {
+        "icon": "zap",
+        "title": "Automations",
+        "description": "If-then rules that handle the busywork. Auto-assign tasks on creation, move cards when status changes, send Slack notifications on deadlines, and 40+ more triggers and actions."
+      },
+      {
+        "icon": "barChart",
+        "title": "Analytics",
+        "description": "Dashboards that show team velocity, bottlenecks, and workload distribution at a glance. Burndown charts, cycle time tracking, and customizable reports you can share with stakeholders."
+      }
+    ],
+    "variant": "cards"
+  },
+  "stats": {
+    "items": [
+      { "value": 10000, "suffix": "+", "label": "Teams Using Flowdeck" },
+      { "value": 99.9, "suffix": "%", "label": "Uptime SLA" },
+      { "value": 2, "suffix": "M+", "label": "Tasks Created" },
+      { "value": 4.8, "label": "Rating on G2" }
+    ],
+    "layout": "horizontal",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "Loved by Teams Who Ship",
+    "items": [
+      {
+        "quote": "We switched from Jira to Flowdeck in a week. Onboarding took one meeting instead of a month. Our sprint velocity went up 30% in the first quarter — mostly because people actually use the tool now.",
+        "author": {
+          "name": "Nicole Park",
+          "role": "VP of Engineering",
+          "company": "Vercel",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "The built-in time tracking alone saved us $400/month we were spending on Toggl. Having timers right on the task card means my team actually tracks their hours without being reminded.",
+        "author": {
+          "name": "Carlos Medina",
+          "role": "Agency Director",
+          "company": "Neon Creative",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "I run a 6-person startup and we use Flowdeck for everything — product roadmap, bug tracking, hiring pipeline, even our content calendar. It adapts to whatever we throw at it.",
+        "author": {
+          "name": "Sam Chandra",
+          "role": "CEO & Co-founder",
+          "company": "Tidepool AI",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "The automations feature is what sold us. We set up rules that auto-assign QA tasks, notify clients on milestone completion, and archive completed sprints. Saves us 5+ hours a week.",
+        "author": {
+          "name": "Elena Vasquez",
+          "role": "Project Manager",
+          "company": "Lattice",
+          "avatar": ""
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "pricing": {
+    "headline": "Simple, Transparent Pricing",
+    "subheadline": "Start free, upgrade when you need more. No hidden fees, no per-feature charges, no surprise overages.",
+    "tiers": [
+      {
+        "name": "Free",
+        "price": { "monthly": 0 },
+        "description": "For individuals and small teams getting started",
+        "features": [
+          { "text": "Up to 5 team members", "included": true },
+          { "text": "Unlimited tasks and projects", "included": true },
+          { "text": "Kanban and list views", "included": true },
+          { "text": "10 GB file storage", "included": true },
+          { "text": "Basic time tracking", "included": true },
+          { "text": "Community support", "included": true },
+          { "text": "Timeline and Gantt views", "included": false },
+          { "text": "Automations", "included": false },
+          { "text": "Advanced analytics", "included": false }
+        ],
+        "cta": { "label": "Get Started Free", "href": "#" }
+      },
+      {
+        "name": "Pro",
+        "price": { "monthly": 12 },
+        "description": "For growing teams that need more power and flexibility",
+        "features": [
+          { "text": "Up to 20 team members", "included": true },
+          { "text": "Unlimited tasks and projects", "included": true },
+          { "text": "All views (Kanban, list, timeline, Gantt)", "included": true },
+          { "text": "100 GB file storage", "included": true },
+          { "text": "Advanced time tracking with reports", "included": true },
+          { "text": "10 automations per project", "included": true },
+          { "text": "Priority email support", "included": true },
+          { "text": "Custom fields and templates", "included": true },
+          { "text": "Advanced analytics", "included": false }
+        ],
+        "cta": { "label": "Start 14-Day Trial", "href": "#" },
+        "highlighted": true,
+        "badge": "Most Popular"
+      },
+      {
+        "name": "Team",
+        "price": { "monthly": 29 },
+        "description": "For teams that need advanced workflows and analytics",
+        "features": [
+          { "text": "Unlimited team members", "included": true },
+          { "text": "Unlimited tasks and projects", "included": true },
+          { "text": "All views plus custom dashboards", "included": true },
+          { "text": "Unlimited file storage", "included": true },
+          { "text": "Billable time tracking with client exports", "included": true },
+          { "text": "Unlimited automations", "included": true },
+          { "text": "Dedicated account manager", "included": true },
+          { "text": "Custom fields, templates, and workflows", "included": true },
+          { "text": "Advanced analytics and burndown charts", "included": true }
+        ],
+        "cta": { "label": "Start 14-Day Trial", "href": "#" }
+      }
+    ],
+    "currency": "USD"
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is there really a free plan?",
+        "answer": "Yes, completely free for up to 5 team members with unlimited tasks and projects. No credit card required, no trial period, no feature lockouts that make it unusable. We built the free tier to be genuinely useful, not just a demo."
+      },
+      {
+        "question": "Can I import from Jira, Asana, or Trello?",
+        "answer": "Yes. We have one-click importers for Jira, Asana, Trello, Monday.com, and ClickUp. Your projects, tasks, assignees, and labels come over automatically. Most teams are fully migrated within an hour."
+      },
+      {
+        "question": "How does billing work?",
+        "answer": "Plans are billed per user, per month (or annually at a 20% discount). You only pay for active users — if someone leaves your team, they're removed from billing immediately. No annual contracts required on any plan."
+      },
+      {
+        "question": "Is my data secure?",
+        "answer": "Flowdeck is SOC 2 Type II certified with 256-bit encryption at rest and in transit. We run on AWS with daily backups, 99.9% uptime SLA, and optional SSO/SAML on the Team plan. Your data is never used for training or sold to third parties."
+      },
+      {
+        "question": "What integrations do you support?",
+        "answer": "Native integrations with Slack, GitHub, GitLab, Google Workspace, Microsoft 365, Figma, and Zapier. Our REST API and webhooks let you connect anything else. API documentation is public and available on our developer portal."
+      },
+      {
+        "question": "Can I try Pro or Team features before committing?",
+        "answer": "Every paid plan starts with a 14-day free trial with full access to all features. No credit card required to start. If you decide not to upgrade, you'll automatically move to the Free plan — no data loss, no disruption."
+      }
+    ],
+    "searchable": true,
+    "allowMultipleOpen": true
+  },
+  "cta": {
+    "headline": "Ready to Streamline Your Workflow?",
+    "description": "Join 10,000+ teams who shipped faster after switching to Flowdeck. Free forever for small teams — upgrade only when you need to.",
+    "primaryCTA": {
+      "label": "Start Free — No Card Required",
+      "href": "#pricing"
+    },
+    "secondaryCTA": {
+      "label": "Book a Demo",
+      "href": "#"
+    },
+    "variant": "highlight"
+  },
+  "footer": {
+    "brand": {
+      "name": "Flowdeck",
+      "description": "Project management that gets out of your way. Built for teams who ship."
+    },
+    "linkGroups": [
+      {
+        "title": "Product",
+        "links": [
+          { "label": "Features", "href": "#services" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Integrations", "href": "#faq" },
+          { "label": "Changelog", "href": "#" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Documentation", "href": "#" },
+          { "label": "API Reference", "href": "#" },
+          { "label": "Blog", "href": "#" },
+          { "label": "Status Page", "href": "#" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "#" },
+          { "label": "Careers", "href": "#" },
+          { "label": "Privacy", "href": "#" },
+          { "label": "Terms", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "2024 Flowdeck, Inc. All rights reserved."
+  }
+}

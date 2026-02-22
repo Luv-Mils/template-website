@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Ironworks Fitness"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Classes", "href": "#services" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Trainers", "href": "#team" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Free Trial Class",
+      "href": "#booking"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Stronger Every Day",
+    "subheadline": "Ironworks Fitness is a CrossFit-style gym in Chicago's West Loop offering group classes, personal training, and nutrition coaching. Whether you are a seasoned athlete or stepping into a gym for the first time, our coaches meet you where you are and push you further.",
+    "primaryCTA": {
+      "label": "Try a Free Class",
+      "href": "#booking"
+    },
+    "secondaryCTA": {
+      "label": "View Schedule",
+      "href": "#services"
+    },
+    "backgroundImage": ""
+  },
+  "stats": {
+    "items": [
+      { "value": 800, "suffix": "+", "label": "Active Members" },
+      { "value": 6, "label": "Years Strong" },
+      { "value": 50, "suffix": "+", "label": "Classes Per Week" },
+      { "value": 4.8, "label": "Member Rating" }
+    ],
+    "layout": "grid",
+    "animateOnScroll": true
+  },
+  "services": {
+    "headline": "Our Classes",
+    "subheadline": "Six training disciplines designed to build strength, endurance, and mobility at every fitness level",
+    "columns": 3,
+    "items": [
+      {
+        "title": "CrossFit",
+        "description": "Our flagship program. Constantly varied functional movements performed at high intensity. Every workout is scalable — whether you are lifting 95 pounds or 295, the stimulus is the same. Classes run daily at 6am, 7am, 12pm, 5pm, and 6:30pm."
+      },
+      {
+        "title": "HIIT",
+        "description": "High-intensity interval training combining bodyweight movements, kettlebells, and cardio bursts. 45-minute sessions designed to maximize calorie burn and metabolic conditioning. No barbell experience required."
+      },
+      {
+        "title": "Olympic Lifting",
+        "description": "Dedicated sessions for the snatch and clean & jerk. Our USAW-certified coaches break down technique from the ground up, with programming for competition prep and general strength athletes alike."
+      },
+      {
+        "title": "Yoga & Mobility",
+        "description": "Active recovery sessions combining vinyasa yoga, dynamic stretching, and foam rolling. Designed specifically for strength athletes who need to improve flexibility, reduce soreness, and prevent injury."
+      },
+      {
+        "title": "Endurance",
+        "description": "Running, rowing, and assault bike conditioning for members training for races, obstacle courses, or general cardiovascular fitness. Programming follows periodized cycles from base building through race-day peaking."
+      },
+      {
+        "title": "Nutrition Coaching",
+        "description": "One-on-one nutrition guidance based on your goals — whether that is fat loss, muscle gain, or fueling for performance. Includes macro planning, weekly check-ins, and habit-based coaching. No crash diets, no fads."
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Membership Plans",
+    "subheadline": "Flexible options from drop-ins to unlimited access — no long-term contracts required",
+    "tiers": [
+      {
+        "name": "Drop-In",
+        "price": {
+          "monthly": 25
+        },
+        "description": "Single class pass for visitors and travelers",
+        "features": [
+          { "text": "Access to any single group class", "included": true },
+          { "text": "Full facility access during class time", "included": true },
+          { "text": "Locker room and showers", "included": true },
+          { "text": "Personal training", "included": false },
+          { "text": "Nutrition coaching", "included": false },
+          { "text": "Open gym access", "included": false }
+        ],
+        "cta": {
+          "label": "Buy a Drop-In",
+          "href": "#booking"
+        }
+      },
+      {
+        "name": "Monthly Unlimited",
+        "price": {
+          "monthly": 149
+        },
+        "description": "Our most popular plan — unlimited classes and open gym",
+        "features": [
+          { "text": "Unlimited group classes", "included": true },
+          { "text": "Open gym access 6am-9pm daily", "included": true },
+          { "text": "Locker room and showers", "included": true },
+          { "text": "InBody composition scans (monthly)", "included": true },
+          { "text": "10% off personal training sessions", "included": true },
+          { "text": "Nutrition coaching", "included": false }
+        ],
+        "cta": {
+          "label": "Start Monthly",
+          "href": "#booking"
+        },
+        "highlighted": true,
+        "badge": "Most Popular"
+      },
+      {
+        "name": "Annual",
+        "price": {
+          "monthly": 1299
+        },
+        "description": "Best value — save over $480 compared to monthly billing",
+        "features": [
+          { "text": "Unlimited group classes", "included": true },
+          { "text": "Open gym access 6am-9pm daily", "included": true },
+          { "text": "Locker room and showers", "included": true },
+          { "text": "InBody composition scans (monthly)", "included": true },
+          { "text": "2 free personal training sessions per month", "included": true },
+          { "text": "Nutrition coaching kick-start (4 weeks)", "included": true }
+        ],
+        "cta": {
+          "label": "Go Annual",
+          "href": "#booking"
+        },
+        "badge": "Best Value"
+      }
+    ],
+    "currency": "USD"
+  },
+  "team": {
+    "headline": "Our Coaches",
+    "subheadline": "Certified professionals committed to your progress, safety, and results",
+    "members": [
+      {
+        "name": "Marcus Cole",
+        "title": "Head Coach & Owner",
+        "bio": "CrossFit Level 3 Trainer, USAW Level 2 Coach. Former collegiate wrestler who founded Ironworks in 2019. Specializes in Olympic lifting and competitor programming. Has coached 40+ athletes to CrossFit regionals.",
+        "photo": ""
+      },
+      {
+        "name": "Tanya Reyes",
+        "title": "Coach — HIIT & Endurance",
+        "bio": "NASM Certified Personal Trainer, CrossFit Level 2. Ultramarathon runner and obstacle course racer. Brings infectious energy to every class and specializes in helping beginners build confidence.",
+        "photo": ""
+      },
+      {
+        "name": "Jake Lindstrom",
+        "title": "Coach — Strength & Olympic Lifting",
+        "bio": "CSCS, USAW Level 1 Coach. Competitive powerlifter with a 1,400-pound total. Patient, technical coaching style focused on movement quality. Runs our barbell club and competition prep track.",
+        "photo": ""
+      },
+      {
+        "name": "Dr. Alana Kim",
+        "title": "Nutrition & Wellness Coach",
+        "bio": "Registered Dietitian with a doctorate in Sports Nutrition from the University of Illinois. Combines evidence-based macro programming with sustainable habit coaching. Worked with Division I athletes before joining Ironworks.",
+        "photo": ""
+      }
+    ],
+    "columns": 4,
+    "variant": "cards"
+  },
+  "testimonials": {
+    "headline": "Member Stories",
+    "items": [
+      {
+        "quote": "I walked into Ironworks two years ago unable to do a single pull-up. Last month I completed my first CrossFit competition. The coaches here do not just program workouts — they build athletes. This place changed my life.",
+        "author": {
+          "name": "Andre Williams",
+          "role": "Member since 2023"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "As a 45-year-old mom of three, I was intimidated by the idea of a CrossFit gym. Tanya made me feel welcome from day one, and every workout is scaled to my level. I am stronger, more energetic, and sleeping better than I have in years.",
+        "author": {
+          "name": "Sarah Kowalski",
+          "role": "Member since 2024"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "The nutrition coaching with Dr. Kim was a game-changer. I lost 30 pounds without cutting out food groups or starving myself. She taught me how to fuel my training properly and the results speak for themselves.",
+        "author": {
+          "name": "Chris Okafor",
+          "role": "Member since 2022"
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "gallery": {
+    "items": [
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Main training floor with competition rigs, platforms, and assault bikes",
+        "category": "Facility"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Morning CrossFit class working through a barbell complex",
+        "category": "Classes"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Olympic lifting platform area with bumper plates and competition bars",
+        "category": "Facility"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "HIIT class in action with kettlebells and box jumps",
+        "category": "Classes"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Yoga and mobility session in the recovery studio",
+        "category": "Classes"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "Locker room and lounge area with protein bar and cold plunge",
+        "category": "Facility"
+      }
+    ],
+    "layout": "grid",
+    "columns": 3,
+    "lightbox": true,
+    "filterByCategory": true
+  },
+  "booking": {
+    "steps": ["service", "datetime", "info", "confirm"],
+    "services": [
+      {
+        "id": "free-trial",
+        "name": "Free Trial Class",
+        "duration": 60,
+        "description": "Experience a full CrossFit or HIIT class with coaching scaled to your level. No experience necessary. Just bring water and athletic shoes."
+      },
+      {
+        "id": "personal-training",
+        "name": "Personal Training Session",
+        "duration": 60,
+        "price": 85,
+        "description": "One-on-one coaching focused on your individual goals — strength, technique, competition prep, or general fitness. Custom programming included."
+      },
+      {
+        "id": "nutrition-consultation",
+        "name": "Nutrition Consultation",
+        "duration": 45,
+        "price": 65,
+        "description": "Initial consultation with Dr. Alana Kim to assess your current diet, set goals, and build a sustainable nutrition plan tailored to your training and lifestyle."
+      }
+    ],
+    "availability": {}
+  },
+  "contact": {
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email"],
+    "successMessage": "Got it. A coach will reach out within 24 hours to get you started.",
+    "submitLabel": "Send Message",
+    "headline": "Get Started",
+    "description": "Questions about classes, memberships, or just want to learn more? Drop us a line and we will get back to you fast."
+  },
+  "footer": {
+    "brand": {
+      "name": "Ironworks Fitness",
+      "description": "CrossFit-style gym in Chicago's West Loop. Group classes, personal training, and nutrition coaching since 2019."
+    },
+    "linkGroups": [
+      {
+        "title": "Training",
+        "links": [
+          { "label": "Classes", "href": "#services" },
+          { "label": "Pricing", "href": "#pricing" },
+          { "label": "Free Trial", "href": "#booking" }
+        ]
+      },
+      {
+        "title": "About",
+        "links": [
+          { "label": "Our Coaches", "href": "#team" },
+          { "label": "Facility", "href": "#gallery" },
+          { "label": "Member Stories", "href": "#testimonials" }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          { "label": "Contact Us", "href": "#contact" },
+          { "label": "Book a Session", "href": "#booking" },
+          { "label": "(312) 555-0247", "href": "tel:+13125550247" }
+        ]
+      }
+    ],
+    "copyright": "2024 Ironworks Fitness. All rights reserved."
+  }
+}

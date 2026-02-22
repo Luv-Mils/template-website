@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Willow Creek Estate"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Packages", "href": "#services" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Schedule a Tour",
+      "href": "#booking"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Where Your Story Begins",
+    "subheadline": "Nestled among 20 acres of vineyards and heritage oaks in the heart of Napa Valley, Willow Creek Estate is a full-service wedding and event venue offering indoor and outdoor spaces, in-house catering, and dedicated planning for celebrations of every size.",
+    "primaryCTA": {
+      "label": "Schedule a Tour",
+      "href": "#booking"
+    },
+    "secondaryCTA": {
+      "label": "View Gallery",
+      "href": "#gallery"
+    },
+    "backgroundImage": ""
+  },
+  "gallery": {
+    "items": [
+      {
+        "type": "image",
+        "src": "",
+        "caption": "The Ceremony Garden — a secluded garden framed by century-old oaks and seasonal wildflowers",
+        "category": "Outdoor"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "The Grand Reception Hall — vaulted timber ceilings, crystal chandeliers, and seating for up to 300 guests",
+        "category": "Indoor"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "The Vineyard Terrace — an open-air terrace overlooking rolling vineyards with mountain views at sunset",
+        "category": "Outdoor"
+      },
+      {
+        "type": "image",
+        "src": "",
+        "caption": "The Bridal Suite — a private preparation suite with full-length mirrors, vanity stations, and champagne service",
+        "category": "Indoor"
+      }
+    ],
+    "layout": "grid",
+    "columns": 2,
+    "lightbox": true,
+    "filterByCategory": true
+  },
+  "stats": {
+    "items": [
+      { "value": 500, "suffix": "+", "label": "Weddings Hosted" },
+      { "value": 15, "label": "Years of Excellence" },
+      { "value": 20, "label": "Acres of Estate Grounds" },
+      { "value": 4.9, "label": "Average Client Rating" }
+    ],
+    "layout": "grid",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "What Our Couples Say",
+    "items": [
+      {
+        "quote": "Willow Creek exceeded every expectation. The grounds are breathtaking, the food was phenomenal, and their coordinator made the entire process feel effortless. Our guests are still talking about it a year later.",
+        "author": {
+          "name": "Rachel & David Thompson",
+          "role": "Wedding, October 2023"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We toured a dozen venues before finding Willow Creek. The moment we walked through the vineyard terrace at sunset, we knew this was the place. Their team handled every detail with grace and professionalism.",
+        "author": {
+          "name": "Maria & James Okonkwo",
+          "role": "Wedding, June 2024"
+        },
+        "rating": 5
+      },
+      {
+        "quote": "From the tasting to the final dance, Willow Creek delivered an experience we could not have imagined. The bridal suite was a dream, and the ceremony garden was even more beautiful in person than in photos.",
+        "author": {
+          "name": "Sophie Chen & Alex Morales",
+          "role": "Wedding, April 2024"
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "services": {
+    "headline": "Event Packages",
+    "subheadline": "Three thoughtfully designed packages to match your vision and guest count",
+    "columns": 3,
+    "items": [
+      {
+        "title": "Intimate Gathering",
+        "description": "Perfect for elopements, micro-weddings, and small celebrations. Includes the Ceremony Garden, bridal suite access, two-hour venue rental, and a dedicated coordinator for up to 50 guests. Starting at $8,000."
+      },
+      {
+        "title": "Classic Celebration",
+        "description": "Our most popular package for weddings and milestone events. Includes indoor and outdoor ceremony options, the Grand Reception Hall, five-hour venue rental, in-house catering, bar service, and full coordination for up to 150 guests. Starting at $18,000."
+      },
+      {
+        "title": "Grand Affair",
+        "description": "An all-inclusive luxury experience for large-scale celebrations. Full estate access including vineyard terrace, reception hall, ceremony garden, and bridal suite. Eight-hour rental with premium catering, open bar, floral design, live entertainment coordination, and day-of management for up to 300 guests. Starting at $35,000."
+      }
+    ]
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is the maximum guest capacity?",
+        "answer": "The Grand Reception Hall seats up to 300 guests for a seated dinner. The Ceremony Garden accommodates 250 for outdoor ceremonies. The Vineyard Terrace holds 200 for cocktail-style events. We can help you choose the right configuration for your guest count."
+      },
+      {
+        "question": "Do you offer in-house catering?",
+        "answer": "Yes. Our executive chef and culinary team provide full-service catering with menus ranging from plated multi-course dinners to buffet and family-style options. We accommodate dietary restrictions including vegan, gluten-free, and kosher. You can also bring in your own caterer with a kitchen rental fee."
+      },
+      {
+        "question": "What happens if it rains on our outdoor event?",
+        "answer": "Every outdoor booking includes our rain contingency plan at no additional cost. The Grand Reception Hall serves as a fully equipped indoor backup, and our team monitors weather forecasts 72 hours in advance to coordinate logistics seamlessly."
+      },
+      {
+        "question": "What is your music and noise policy?",
+        "answer": "Live bands and DJs are welcome. Amplified music is permitted until 10:00 PM for outdoor events and 11:00 PM indoors, in compliance with Napa County regulations. Acoustic music may continue until midnight."
+      },
+      {
+        "question": "Are there nearby accommodations for out-of-town guests?",
+        "answer": "We have partnerships with five hotels and two bed-and-breakfasts within a 10-minute drive, offering group rates for wedding blocks. We are also happy to arrange shuttle service between the estate and local hotels."
+      }
+    ],
+    "searchable": false,
+    "allowMultipleOpen": true
+  },
+  "map": {
+    "variant": "embed",
+    "center": {
+      "lat": 38.2975,
+      "lng": -122.2869
+    },
+    "zoom": 14,
+    "address": {
+      "street": "4200 Silverado Trail",
+      "city": "Napa",
+      "state": "CA",
+      "zip": "94558"
+    },
+    "showDirectionsLink": true,
+    "contactCard": {
+      "name": "Willow Creek Estate",
+      "phone": "(707) 555-0142",
+      "email": "events@willowcreekestate.com",
+      "hours": "Mon-Sat: 10am-6pm, Sun: By Appointment"
+    }
+  },
+  "booking": {
+    "steps": ["service", "datetime", "info", "confirm"],
+    "services": [
+      {
+        "id": "venue-tour",
+        "name": "Venue Tour",
+        "duration": 60,
+        "description": "Walk the grounds with our event coordinator, see all indoor and outdoor spaces, and discuss your vision. Complimentary."
+      },
+      {
+        "id": "tasting",
+        "name": "Menu Tasting",
+        "duration": 90,
+        "price": 150,
+        "description": "Sample seasonal dishes prepared by our executive chef, select your menu, and discuss beverage pairings."
+      },
+      {
+        "id": "planning-consultation",
+        "name": "Planning Consultation",
+        "duration": 60,
+        "description": "A focused session to review timelines, vendor coordination, and logistics for your upcoming event. Complimentary."
+      }
+    ],
+    "availability": {}
+  },
+  "contact": {
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thank you for your inquiry. Our events team will be in touch within 24 hours.",
+    "submitLabel": "Send Inquiry",
+    "headline": "Plan Your Event",
+    "description": "Tell us about your celebration and we will reach out to discuss how Willow Creek Estate can bring your vision to life."
+  },
+  "footer": {
+    "brand": {
+      "name": "Willow Creek Estate",
+      "description": "A premier Napa Valley wedding and event venue set among 20 acres of vineyards and heritage oaks."
+    },
+    "linkGroups": [
+      {
+        "title": "Venue",
+        "links": [
+          { "label": "Gallery", "href": "#gallery" },
+          { "label": "Packages", "href": "#services" },
+          { "label": "FAQ", "href": "#faq" }
+        ]
+      },
+      {
+        "title": "Planning",
+        "links": [
+          { "label": "Schedule a Tour", "href": "#booking" },
+          { "label": "Catering", "href": "#faq" },
+          { "label": "Accommodations", "href": "#faq" }
+        ]
+      },
+      {
+        "title": "Contact",
+        "links": [
+          { "label": "Get Directions", "href": "#map" },
+          { "label": "Send Inquiry", "href": "#contact" },
+          { "label": "(707) 555-0142", "href": "tel:+17075550142" }
+        ]
+      }
+    ],
+    "copyright": "2024 Willow Creek Estate. All rights reserved."
+  }
+}

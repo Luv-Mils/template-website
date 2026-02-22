@@ -1,9 +1,6 @@
 {
-  "template": "website",
-  "sdk_version": "1.0",
-  "defaults": {
-    "layout": "default",
-    "theme": "default",
-    "typography": "default"
-  }
+  "chassis": "local-service",
+  "layout": "single-page",
+  "theme": "sunset",
+  "typography": "modern"
 }

@@ -1,0 +1,143 @@
+{
+  "id": "local-service",
+  "name": "Local Service Business",
+  "description": "Service businesses that operate locally — plumbers, electricians, HVAC, contractors, cleaners, landscapers, and more.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "cta",
+      "component": "CTABanner",
+      "domain": "content",
+      "required": false,
+      "contentKey": "cta",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "services"
+    },
+    {
+      "id": "faq",
+      "component": "FAQAccordion",
+      "domain": "content",
+      "required": false,
+      "contentKey": "faq",
+      "page": "services"
+    },
+    {
+      "id": "map",
+      "component": "MapIntegration",
+      "domain": "content",
+      "required": false,
+      "contentKey": "map",
+      "page": "contact"
+    },
+    {
+      "id": "contact",
+      "component": "ContactForm",
+      "domain": "communication",
+      "required": true,
+      "contentKey": "contact",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections stacked on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, services, and contact with top navigation"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Stripped-down layout focusing on hero, services, and contact only"
+      }
+    ],
+    "themes": [
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "description": "Warm amber and orange tones that convey trust and urgency"
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "description": "Neutral grays and steel tones for a professional, industrial feel"
+      },
+      {
+        "id": "ocean",
+        "name": "Ocean",
+        "description": "Cool blues and teals evoking reliability and calm"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with strong hierarchy and generous spacing"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Traditional serif headings paired with readable sans-serif body"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Rounded, approachable type that feels warm and accessible"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "sunset",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline shown above the fold", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text below the headline", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Services Heading", "description": "Title for the services section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Services", "description": "List of services offered", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Statistics", "description": "Key business stats to highlight", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Testimonials", "description": "Customer reviews and quotes", "required": false },
+    { "key": "contact.headline", "type": "text", "label": "Contact Heading", "description": "Heading for the contact form area", "required": true, "maxLength": 60 },
+    { "key": "map.address", "type": "address", "label": "Business Address", "description": "Physical location for the map", "required": false },
+    { "key": "faq.items", "type": "list", "label": "FAQ Items", "description": "Frequently asked questions", "required": false }
+  ],
+  "keywords": ["plumber", "electrician", "hvac", "contractor", "handyman", "cleaning", "landscaping", "pest control", "locksmith", "painter", "roofing", "moving"],
+  "primaryDomains": ["content", "communication"]
+}

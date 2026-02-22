@@ -1,0 +1,143 @@
+{
+  "id": "ecommerce",
+  "name": "E-Commerce & Shop",
+  "description": "Online and local retail — handmade goods, boutiques, artisan products, subscriptions, and direct-to-consumer brands.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "cta",
+      "component": "CTABanner",
+      "domain": "content",
+      "required": true,
+      "contentKey": "cta",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "products"
+    },
+    {
+      "id": "gallery",
+      "component": "MediaGallery",
+      "domain": "content",
+      "required": false,
+      "contentKey": "gallery",
+      "page": "products"
+    },
+    {
+      "id": "faq",
+      "component": "FAQAccordion",
+      "domain": "content",
+      "required": false,
+      "contentKey": "faq",
+      "page": "about"
+    },
+    {
+      "id": "social",
+      "component": "SocialShareBar",
+      "domain": "communication",
+      "required": false,
+      "contentKey": "social",
+      "page": "about"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections stacked on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, products, and about with top navigation"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Clean storefront layout focused on products and a subscription CTA"
+      }
+    ],
+    "themes": [
+      {
+        "id": "coral",
+        "name": "Coral",
+        "description": "Warm coral and blush tones conveying handmade warmth and artisan charm"
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "description": "Rich amber and honey tones evoking natural ingredients and cozy vibes"
+      },
+      {
+        "id": "forest",
+        "name": "Forest",
+        "description": "Deep greens and earth tones reflecting eco-friendly and sustainable values"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with strong hierarchy and generous spacing"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Traditional serif headings paired with readable sans-serif body"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Rounded, approachable type that feels warm and accessible"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "coral",
+    "typography": "friendly"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline shown above the fold", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text below the headline", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Products Heading", "description": "Title for the product categories section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Product Categories", "description": "List of product categories", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Statistics", "description": "Key brand stats to highlight", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Reviews", "description": "Customer reviews and quotes", "required": false },
+    { "key": "gallery.items", "type": "list", "label": "Lifestyle Gallery", "description": "Lifestyle product photography", "required": false },
+    { "key": "faq.items", "type": "list", "label": "FAQ Items", "description": "Frequently asked questions", "required": false },
+    { "key": "cta.headline", "type": "text", "label": "CTA Headline", "description": "Subscription or promotion call to action", "required": true, "maxLength": 80 }
+  ],
+  "keywords": ["shop", "store", "candle", "handmade", "artisan", "boutique", "gift", "subscription", "eco-friendly", "retail"],
+  "primaryDomains": ["content", "communication"]
+}

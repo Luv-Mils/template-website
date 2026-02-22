@@ -1,0 +1,232 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Precision Plumbing Co."
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Reviews", "href": "#testimonials" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Call Now",
+      "href": "tel:+15035550147"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Your Local Plumbing Experts Since 2012",
+    "subheadline": "Fast, reliable plumbing service for homes and businesses across the Portland metro area. Licensed, bonded, and insured — with 24/7 emergency response when you need it most.",
+    "primaryCTA": {
+      "label": "Get a Free Estimate",
+      "href": "#contact"
+    },
+    "secondaryCTA": {
+      "label": "Our Services",
+      "href": "#services"
+    },
+    "backgroundImage": "",
+    "badges": ["Licensed & Bonded", "24/7 Emergency", "Free Estimates"]
+  },
+  "services": {
+    "headline": "What We Do",
+    "subheadline": "From routine maintenance to complex installations, our certified technicians handle every job with care and precision.",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "wrench",
+        "title": "Emergency Repairs",
+        "description": "Burst pipes, overflows, and gas leaks — our team is on call around the clock. Average response time under 30 minutes in the Portland metro.",
+        "link": "#contact"
+      },
+      {
+        "icon": "flame",
+        "title": "Water Heater Installation",
+        "description": "Tank and tankless water heater installation, replacement, and repair. We work with all major brands and offer same-day service on most models.",
+        "link": "#contact"
+      },
+      {
+        "icon": "droplets",
+        "title": "Drain Cleaning",
+        "description": "Slow drains, clogs, and backups cleared fast with professional hydro-jetting and camera inspection. No guesswork, no surprises.",
+        "link": "#contact"
+      },
+      {
+        "icon": "bath",
+        "title": "Bathroom Remodels",
+        "description": "Full-service bathroom renovation including fixture installation, re-piping, tile work coordination, and ADA-compliant upgrades.",
+        "link": "#contact"
+      },
+      {
+        "icon": "pipette",
+        "title": "Pipe Repair & Replacement",
+        "description": "Trenchless pipe repair, copper re-piping, and PEX upgrades. We minimize disruption to your property with modern techniques.",
+        "link": "#contact"
+      },
+      {
+        "icon": "construction",
+        "title": "Sewer Line Service",
+        "description": "Video inspection, root removal, and full sewer line replacement. We diagnose the problem before we dig so you only pay for what you need.",
+        "link": "#contact"
+      }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": 5000, "suffix": "+", "label": "Jobs Completed" },
+      { "value": 12, "label": "Years in Business" },
+      { "value": 4.9, "label": "Average Rating" },
+      { "value": 30, "prefix": "<", "suffix": "min", "label": "Response Time" }
+    ],
+    "layout": "horizontal",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "What Our Customers Say",
+    "items": [
+      {
+        "quote": "Called at 11 PM with a burst pipe in our basement. Marcus and his crew were here in 20 minutes and had it fixed before midnight. Absolute lifesavers.",
+        "author": {
+          "name": "Jennifer Okoro",
+          "role": "Homeowner",
+          "company": "SE Portland",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Precision replaced our 40-year-old galvanized pipes with PEX in two days. They protected our floors, cleaned up every night, and came in under the estimate.",
+        "author": {
+          "name": "David Chen",
+          "role": "Property Manager",
+          "company": "Hawthorne Properties",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We use Precision for all three of our restaurant locations. They understand commercial plumbing and always work around our operating hours. Highly recommend.",
+        "author": {
+          "name": "Maria Santos",
+          "role": "Owner",
+          "company": "Taqueria Sol",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Honest pricing, no upselling. They told me my water heater had another year or two left instead of pushing a replacement. That kind of integrity is rare.",
+        "author": {
+          "name": "Robert Hale",
+          "role": "Homeowner",
+          "company": "Lake Oswego",
+          "avatar": ""
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "faq": {
+    "headline": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do you offer 24/7 emergency service?",
+        "answer": "Yes. Our emergency line is staffed around the clock, 365 days a year. For urgent issues like burst pipes, gas leaks, or sewage backups, we typically arrive within 30 minutes anywhere in the Portland metro area."
+      },
+      {
+        "question": "Are you licensed and insured?",
+        "answer": "Absolutely. Precision Plumbing Co. holds an Oregon CCB license (#204817) and carries full general liability and workers' compensation insurance. We're happy to provide proof of insurance for any job."
+      },
+      {
+        "question": "How much does a typical service call cost?",
+        "answer": "We charge a flat diagnostic fee of $49 for standard service calls, which is waived if you proceed with the repair. Emergency after-hours calls have a $99 dispatch fee. We always provide a written estimate before starting any work."
+      },
+      {
+        "question": "Do you offer financing?",
+        "answer": "Yes. For larger jobs like water heater replacements, re-piping, or bathroom remodels, we offer 0% financing for 12 months through our partnership with GreenSky. Apply during your estimate appointment."
+      },
+      {
+        "question": "What areas do you serve?",
+        "answer": "We serve the entire Portland metro area including Beaverton, Lake Oswego, Tigard, Milwaukie, Gresham, Hillsboro, and West Linn. For jobs outside this area, give us a call — we may still be able to help."
+      },
+      {
+        "question": "What is your warranty policy?",
+        "answer": "All labor carries a 2-year warranty. Parts are covered by the manufacturer's warranty, which we handle on your behalf. If something we installed fails within the warranty period, we fix it at no charge."
+      }
+    ],
+    "searchable": false,
+    "allowMultipleOpen": false
+  },
+  "map": {
+    "variant": "embed",
+    "center": {
+      "lat": 45.5155,
+      "lng": -122.6789
+    },
+    "zoom": 13,
+    "address": {
+      "street": "2847 SE Hawthorne Blvd",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97214"
+    },
+    "showDirectionsLink": true,
+    "contactCard": {
+      "name": "Precision Plumbing Co.",
+      "phone": "(503) 555-0147",
+      "email": "service@precisionplumbingpdx.com",
+      "hours": "Mon–Fri 7AM–6PM | Emergency: 24/7"
+    }
+  },
+  "cta": {
+    "headline": "Plumbing Emergency? We're On Our Way.",
+    "description": "Don't wait for water damage to get worse. Call now for fast, professional service from a team Portland trusts.",
+    "primaryCTA": {
+      "label": "Call (503) 555-0147",
+      "href": "tel:+15035550147"
+    },
+    "secondaryCTA": {
+      "label": "Request Online Estimate",
+      "href": "#contact"
+    },
+    "variant": "highlight"
+  },
+  "contact": {
+    "headline": "Get a Free Estimate",
+    "description": "Describe your issue and we'll get back to you within 2 hours during business hours. For emergencies, call us directly.",
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thanks! We've received your request and will respond within 2 hours.",
+    "submitLabel": "Send Request"
+  },
+  "footer": {
+    "brand": {
+      "name": "Precision Plumbing Co.",
+      "description": "Licensed, bonded, and insured plumbing service for the Portland metro area. CCB #204817."
+    },
+    "linkGroups": [
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Emergency Repairs", "href": "#services" },
+          { "label": "Water Heaters", "href": "#services" },
+          { "label": "Drain Cleaning", "href": "#services" },
+          { "label": "Sewer Lines", "href": "#services" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "#stats" },
+          { "label": "Reviews", "href": "#testimonials" },
+          { "label": "FAQ", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    ],
+    "copyright": "2024 Precision Plumbing Co. All rights reserved."
+  }
+}

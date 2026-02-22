@@ -1,0 +1,135 @@
+{
+  "id": "saas-landing",
+  "name": "SaaS & Product",
+  "description": "Software products, digital services, and startup landing pages — with features, pricing, and social proof.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "cta",
+      "component": "CTABanner",
+      "domain": "content",
+      "required": false,
+      "contentKey": "cta",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "services"
+    },
+    {
+      "id": "faq",
+      "component": "FAQAccordion",
+      "domain": "content",
+      "required": false,
+      "contentKey": "faq",
+      "page": "services"
+    },
+    {
+      "id": "pricing",
+      "component": "PricingTable",
+      "domain": "content",
+      "required": true,
+      "contentKey": "pricing",
+      "page": "pricing"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "Classic SaaS landing page with all sections stacked vertically"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, features, and pricing"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Focused layout with hero, key features, and pricing — nothing else"
+      }
+    ],
+    "themes": [
+      {
+        "id": "ocean",
+        "name": "Ocean",
+        "description": "Professional blues and whites — the default SaaS look that converts"
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "description": "Dark mode with subtle gradients for a developer-focused product"
+      },
+      {
+        "id": "midnight",
+        "name": "Midnight",
+        "description": "Deep navy with vibrant accent colors for bold product positioning"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type optimized for SaaS marketing copy"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Authoritative serif headings that signal enterprise readiness"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Warm, approachable type for consumer-facing products"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "ocean",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary value proposition headline", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text explaining the product", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Features Heading", "description": "Title for the features section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Features", "description": "Key product features", "required": true },
+    { "key": "pricing.headline", "type": "text", "label": "Pricing Heading", "description": "Title for the pricing section", "required": true, "maxLength": 60 },
+    { "key": "pricing.tiers", "type": "list", "label": "Pricing Tiers", "description": "Pricing plans with features", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Social Proof Stats", "description": "Key metrics that build trust", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Customer Testimonials", "description": "Quotes from satisfied customers", "required": false },
+    { "key": "faq.items", "type": "list", "label": "FAQ Items", "description": "Common product questions", "required": false }
+  ],
+  "keywords": ["saas", "app", "software", "startup", "product", "tool", "platform", "api", "service", "subscription"],
+  "primaryDomains": ["content"]
+}

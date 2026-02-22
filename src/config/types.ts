@@ -22,7 +22,9 @@ export interface TypographyConfig {
 }
 
 export interface VibeConfig {
+  chassis: string;
   layout: string;
   theme: string;
   typography: string;
+  content?: Record<string, unknown>;
 }

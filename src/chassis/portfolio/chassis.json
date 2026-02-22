@@ -1,0 +1,134 @@
+{
+  "id": "portfolio",
+  "name": "Portfolio & Creative",
+  "description": "Creative professionals showcasing their work — photographers, designers, artists, freelancers, and videographers.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "gallery",
+      "component": "MediaGallery",
+      "domain": "content",
+      "required": true,
+      "contentKey": "gallery",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "cta",
+      "component": "CTABanner",
+      "domain": "content",
+      "required": false,
+      "contentKey": "cta",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "services"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "services"
+    },
+    {
+      "id": "contact",
+      "component": "ContactForm",
+      "domain": "communication",
+      "required": true,
+      "contentKey": "contact",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "Full portfolio on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for portfolio, packages, and contact"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Image-forward layout with minimal text — lets the work speak"
+      }
+    ],
+    "themes": [
+      {
+        "id": "slate",
+        "name": "Slate",
+        "description": "Neutral grays and charcoal that keep the focus on the imagery"
+      },
+      {
+        "id": "midnight",
+        "name": "Midnight",
+        "description": "Dark backgrounds with high contrast that make photos pop"
+      },
+      {
+        "id": "ocean",
+        "name": "Ocean",
+        "description": "Soft blues and whites for a clean, airy gallery feel"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with editorial spacing and strong hierarchy"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Refined serif headings paired with understated body text"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Warm, rounded type that feels personal and approachable"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "slate",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Your name or studio brand line", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Brief description of your specialty", "required": true, "maxLength": 160 },
+    { "key": "gallery.items", "type": "list", "label": "Portfolio Images", "description": "Your best work samples with captions and categories", "required": true },
+    { "key": "services.headline", "type": "text", "label": "Packages Heading", "description": "Title for the packages or services section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Packages", "description": "Service packages with descriptions and pricing", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Career Stats", "description": "Numbers that showcase your experience", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Client Testimonials", "description": "Reviews from past clients", "required": false },
+    { "key": "contact.headline", "type": "text", "label": "Contact Heading", "description": "Heading for the inquiry form", "required": true, "maxLength": 60 }
+  ],
+  "keywords": ["portfolio", "photographer", "designer", "artist", "freelancer", "writer", "illustrator", "videographer", "musician", "architect"],
+  "primaryDomains": ["content", "communication"]
+}

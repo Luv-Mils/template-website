@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Sara Chen Photography"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Portfolio", "href": "#gallery" },
+      { "label": "Packages", "href": "#services" },
+      { "label": "Kind Words", "href": "#testimonials" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Book a Session",
+      "href": "#contact"
+    }
+  },
+  "hero": {
+    "variant": "fullscreen",
+    "headline": "Moments That Matter",
+    "subheadline": "Wedding and portrait photography for couples who want images that feel as real as the day itself. Based in Portland, available worldwide.",
+    "primaryCTA": {
+      "label": "View My Work",
+      "href": "#gallery"
+    },
+    "secondaryCTA": {
+      "label": "Check Availability",
+      "href": "#contact"
+    },
+    "backgroundImage": ""
+  },
+  "gallery": {
+    "items": [
+      { "type": "image", "src": "", "caption": "Emily & James — ceremony at Pittock Mansion", "category": "wedding" },
+      { "type": "image", "src": "", "caption": "First dance under string lights at Castaway Portland", "category": "wedding" },
+      { "type": "image", "src": "", "caption": "Bridal portraits in the Columbia River Gorge", "category": "wedding" },
+      { "type": "image", "src": "", "caption": "The Kim family — autumn session at Hoyt Arboretum", "category": "portrait" },
+      { "type": "image", "src": "", "caption": "Newborn session — baby Liam at two weeks", "category": "portrait" },
+      { "type": "image", "src": "", "caption": "Senior portraits for Maya — class of 2024", "category": "portrait" },
+      { "type": "image", "src": "", "caption": "Engagement shoot at Cannon Beach during golden hour", "category": "wedding" },
+      { "type": "image", "src": "", "caption": "Brand shoot for Wildwood Coffee Roasters", "category": "lifestyle" },
+      { "type": "image", "src": "", "caption": "Maternity session at Sauvie Island lavender fields", "category": "portrait" },
+      { "type": "image", "src": "", "caption": "Editorial shoot for Portland Monthly Magazine", "category": "lifestyle" },
+      { "type": "image", "src": "", "caption": "Rehearsal dinner at Lefty's — candid table moments", "category": "wedding" },
+      { "type": "image", "src": "", "caption": "Headshots for Cascade Legal Group", "category": "lifestyle" }
+    ],
+    "layout": "masonry",
+    "columns": 3,
+    "lightbox": true,
+    "filterByCategory": true
+  },
+  "services": {
+    "headline": "Packages & Pricing",
+    "subheadline": "Every package includes a planning consultation, professional editing, and an online gallery. Custom packages available for larger events.",
+    "columns": 3,
+    "items": [
+      {
+        "title": "Essential — $2,400",
+        "description": "Perfect for elopements and intimate ceremonies. Includes 6 hours of coverage, one photographer, 300+ edited images delivered in a private online gallery, and a pre-wedding consultation.",
+        "link": "#contact"
+      },
+      {
+        "title": "Signature — $3,800",
+        "description": "Our most popular package for full-day weddings. Includes 10 hours of coverage, second photographer, engagement session, 500+ edited images, curated slideshow, and a 30-page linen album.",
+        "link": "#contact"
+      },
+      {
+        "title": "Luxury — $5,500",
+        "description": "The complete experience for couples who want it all. Includes full-day coverage from getting ready through the send-off, two photographers, engagement session, boudoir session, 700+ images, slideshow, premium album, and 16x20 fine art print.",
+        "link": "#contact"
+      }
+    ],
+    "variant": "cards"
+  },
+  "stats": {
+    "items": [
+      { "value": 200, "suffix": "+", "label": "Weddings Photographed" },
+      { "value": 12, "label": "Years of Experience" },
+      { "value": 5.0, "label": "Star Rating" },
+      { "value": 50, "suffix": "k+", "label": "Photos Delivered" }
+    ],
+    "layout": "horizontal",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "Kind Words",
+    "items": [
+      {
+        "quote": "Sara has this incredible ability to make you forget there's a camera in the room. Our wedding photos feel like memories, not poses. We ugly-cried going through the gallery.",
+        "author": {
+          "name": "Emily & James Park",
+          "role": "Wedding — October 2023",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "I've never felt comfortable in front of a camera, but Sara made the whole session feel like a conversation. My headshots look like me on my best day — exactly what I wanted.",
+        "author": {
+          "name": "Rachel Torres",
+          "role": "Brand Portraits",
+          "company": "Cascade Legal Group",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We flew Sara to Maui for our destination wedding and it was the best decision we made. She scouted locations the day before and knew exactly where the light would be.",
+        "author": {
+          "name": "Aisha & Daniel Okonkwo",
+          "role": "Destination Wedding — March 2024",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Our family session with three kids under five could have been chaos, but Sara rolled with every tantrum and got the most genuine smiles out of all of them. Pure magic.",
+        "author": {
+          "name": "The Nguyen Family",
+          "role": "Family Portraits",
+          "avatar": ""
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "cta": {
+    "headline": "Let's Tell Your Story",
+    "description": "I book 25 weddings per year to give every couple the attention they deserve. Check my availability for your date.",
+    "primaryCTA": {
+      "label": "Check Availability",
+      "href": "#contact"
+    },
+    "secondaryCTA": {
+      "label": "View Packages",
+      "href": "#services"
+    },
+    "variant": "highlight"
+  },
+  "contact": {
+    "headline": "Get in Touch",
+    "description": "Tell me about your day — the venue, the vibe, the details that matter to you. I respond to every inquiry within 24 hours.",
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thank you! I'll be in touch within 24 hours to discuss your vision.",
+    "submitLabel": "Send Inquiry"
+  },
+  "footer": {
+    "brand": {
+      "name": "Sara Chen Photography",
+      "description": "Wedding and portrait photography based in Portland, Oregon. Available for travel worldwide."
+    },
+    "linkGroups": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Portfolio", "href": "#gallery" },
+          { "label": "Packages", "href": "#services" },
+          { "label": "Kind Words", "href": "#testimonials" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Follow Along",
+        "links": [
+          { "label": "Instagram", "href": "#" },
+          { "label": "Pinterest", "href": "#" },
+          { "label": "Blog", "href": "#" },
+          { "label": "The Knot", "href": "#" }
+        ]
+      }
+    ],
+    "copyright": "2024 Sara Chen Photography. All rights reserved."
+  }
+}

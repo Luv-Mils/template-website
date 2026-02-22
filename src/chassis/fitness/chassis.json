@@ -1,0 +1,153 @@
+{
+  "id": "fitness",
+  "name": "Fitness & Wellness",
+  "description": "Health, fitness, and wellness businesses — gyms, studios, personal training, yoga, CrossFit, martial arts, and nutrition coaching.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "classes"
+    },
+    {
+      "id": "pricing",
+      "component": "PricingTable",
+      "domain": "content",
+      "required": true,
+      "contentKey": "pricing",
+      "page": "classes"
+    },
+    {
+      "id": "team",
+      "component": "TeamGrid",
+      "domain": "content",
+      "required": false,
+      "contentKey": "team",
+      "page": "about"
+    },
+    {
+      "id": "gallery",
+      "component": "MediaGallery",
+      "domain": "content",
+      "required": false,
+      "contentKey": "gallery",
+      "page": "about"
+    },
+    {
+      "id": "booking",
+      "component": "BookingFlow",
+      "domain": "scheduling",
+      "required": false,
+      "contentKey": "booking",
+      "page": "contact"
+    },
+    {
+      "id": "contact",
+      "component": "ContactForm",
+      "domain": "communication",
+      "required": true,
+      "contentKey": "contact",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections stacked on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, classes, about, and contact with top navigation"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "High-energy layout focused on classes, pricing, and booking"
+      }
+    ],
+    "themes": [
+      {
+        "id": "midnight",
+        "name": "Midnight",
+        "description": "Deep navy and dark tones projecting intensity, power, and focus"
+      },
+      {
+        "id": "coral",
+        "name": "Coral",
+        "description": "Vibrant coral and warm tones conveying energy, motivation, and vitality"
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "description": "Neutral grays and steel tones for a rugged, industrial gym aesthetic"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with strong hierarchy and generous spacing"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Traditional serif headings paired with readable sans-serif body"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Rounded, approachable type that feels warm and accessible"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "midnight",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline shown above the fold", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text below the headline", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Classes Heading", "description": "Title for the classes section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Classes", "description": "List of fitness classes offered", "required": true },
+    { "key": "pricing.tiers", "type": "list", "label": "Membership Tiers", "description": "Membership plans and pricing", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Statistics", "description": "Key gym stats to highlight", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Testimonials", "description": "Member reviews and quotes", "required": false },
+    { "key": "team.members", "type": "list", "label": "Trainers", "description": "Coaching staff and certifications", "required": false },
+    { "key": "gallery.items", "type": "list", "label": "Facility Photos", "description": "Gym and facility photography", "required": false },
+    { "key": "booking.services", "type": "list", "label": "Booking Services", "description": "Services available for booking", "required": false },
+    { "key": "contact.headline", "type": "text", "label": "Contact Heading", "description": "Heading for the contact form area", "required": true, "maxLength": 60 }
+  ],
+  "keywords": ["gym", "crossfit", "fitness", "personal trainer", "yoga", "hiit", "strength", "classes", "nutrition", "wellness"],
+  "primaryDomains": ["content", "communication", "scheduling"]
+}

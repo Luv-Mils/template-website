@@ -1,0 +1,154 @@
+{
+  "id": "professional",
+  "name": "Professional Services",
+  "description": "Licensed professionals and firms — dentists, doctors, lawyers, therapists, accountants, and consultants with booking and team pages.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "testimonials",
+      "component": "TestimonialsCarousel",
+      "domain": "content",
+      "required": false,
+      "contentKey": "testimonials",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "services"
+    },
+    {
+      "id": "faq",
+      "component": "FAQAccordion",
+      "domain": "content",
+      "required": false,
+      "contentKey": "faq",
+      "page": "services"
+    },
+    {
+      "id": "team",
+      "component": "TeamGrid",
+      "domain": "content",
+      "required": false,
+      "contentKey": "team",
+      "page": "about"
+    },
+    {
+      "id": "map",
+      "component": "MapIntegration",
+      "domain": "content",
+      "required": false,
+      "contentKey": "map",
+      "page": "contact"
+    },
+    {
+      "id": "booking",
+      "component": "BookingFlow",
+      "domain": "scheduling",
+      "required": false,
+      "contentKey": "booking",
+      "page": "contact"
+    },
+    {
+      "id": "contact",
+      "component": "ContactForm",
+      "domain": "communication",
+      "required": true,
+      "contentKey": "contact",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, services, about/team, and contact/booking"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Clean layout focusing on services, team, and booking"
+      }
+    ],
+    "themes": [
+      {
+        "id": "ocean",
+        "name": "Ocean",
+        "description": "Calming blues and whites that convey trust and professionalism"
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "description": "Sophisticated grays and charcoal for a polished, clinical feel"
+      },
+      {
+        "id": "forest",
+        "name": "Forest",
+        "description": "Natural greens and warm neutrals for a calming, wellness-oriented look"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with professional weight and clear hierarchy"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Refined serif headings that project authority and established expertise"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Warm, rounded type that feels approachable — ideal for family practices"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "ocean",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline for the practice", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text about the practice", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Services Heading", "description": "Title for the services section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Services", "description": "Services offered by the practice", "required": true },
+    { "key": "team.headline", "type": "text", "label": "Team Heading", "description": "Title for the team section", "required": false, "maxLength": 60 },
+    { "key": "team.members", "type": "list", "label": "Team Members", "description": "Doctors, staff, and their bios", "required": false },
+    { "key": "stats.items", "type": "list", "label": "Practice Stats", "description": "Key numbers to highlight", "required": false },
+    { "key": "testimonials.items", "type": "list", "label": "Patient Reviews", "description": "Testimonials from patients", "required": false },
+    { "key": "faq.items", "type": "list", "label": "FAQ Items", "description": "Common patient questions", "required": false },
+    { "key": "booking.services", "type": "list", "label": "Bookable Services", "description": "Services available for online booking", "required": false },
+    { "key": "contact.headline", "type": "text", "label": "Contact Heading", "description": "Heading for the contact form", "required": true, "maxLength": 60 },
+    { "key": "map.address", "type": "address", "label": "Office Address", "description": "Physical location for the map", "required": false }
+  ],
+  "keywords": ["lawyer", "accountant", "consultant", "therapist", "dentist", "doctor", "veterinarian", "financial advisor", "insurance", "real estate agent"],
+  "primaryDomains": ["content", "communication", "scheduling"]
+}

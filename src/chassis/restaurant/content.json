@@ -1,0 +1,211 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Mesa Verde Kitchen"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Menu", "href": "#pricing" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Reviews", "href": "#testimonials" },
+      { "label": "Reserve", "href": "#rsvp" }
+    ],
+    "cta": {
+      "label": "Reserve a Table",
+      "href": "#rsvp"
+    }
+  },
+  "hero": {
+    "variant": "fullscreen",
+    "headline": "Farm-to-Table Mexican Cuisine",
+    "subheadline": "Modern Mexican dishes crafted from locally sourced ingredients, served in the heart of Austin's East Side. Brunch weekends, dinner nightly, cocktails always.",
+    "primaryCTA": {
+      "label": "View the Menu",
+      "href": "#pricing"
+    },
+    "secondaryCTA": {
+      "label": "Make a Reservation",
+      "href": "#rsvp"
+    },
+    "backgroundImage": "",
+    "badges": ["James Beard Semifinalist 2023", "Austin Chronicle Best New Restaurant"]
+  },
+  "gallery": {
+    "items": [
+      { "type": "image", "src": "", "caption": "Wood-fired elote with cotija and lime aioli", "category": "food" },
+      { "type": "image", "src": "", "caption": "Our signature mole negro — 28 ingredients, three days to prepare", "category": "food" },
+      { "type": "image", "src": "", "caption": "The main dining room with reclaimed oak and open kitchen", "category": "interior" },
+      { "type": "image", "src": "", "caption": "Hand-pressed blue corn tortillas made fresh every hour", "category": "food" },
+      { "type": "image", "src": "", "caption": "Mezcal flight with house-smoked sal de gusano", "category": "drinks" },
+      { "type": "image", "src": "", "caption": "Our shaded patio overlooking Rainey Street", "category": "interior" },
+      { "type": "image", "src": "", "caption": "Brunch chilaquiles with sunny eggs and crema", "category": "food" },
+      { "type": "image", "src": "", "caption": "Chef Ana at the pass during Friday dinner service", "category": "team" }
+    ],
+    "layout": "masonry",
+    "columns": 3,
+    "lightbox": true,
+    "filterByCategory": true
+  },
+  "stats": {
+    "items": [
+      { "value": 50000, "suffix": "+", "label": "Meals Served" },
+      { "value": 4.8, "label": "Google Rating" },
+      { "value": 8, "label": "Years Open" },
+      { "value": 15, "label": "Local Farm Partners" }
+    ],
+    "layout": "horizontal",
+    "animateOnScroll": true
+  },
+  "testimonials": {
+    "headline": "What People Are Saying",
+    "items": [
+      {
+        "quote": "The mole negro alone is worth the trip to Austin. Thirty minutes in and I was already planning my next visit. This kitchen is doing something special.",
+        "author": {
+          "name": "Marcus Reyes",
+          "role": "Food Critic",
+          "company": "Austin Eater",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "We hosted our rehearsal dinner here for 40 guests. Chef Ana created a custom tasting menu that had everyone talking long after the wedding. Impeccable service.",
+        "author": {
+          "name": "Sarah and Tom Whitfield",
+          "role": "Private Event",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "Best brunch in East Austin, no contest. The chilaquiles are incredible and the horchata cold brew is dangerously good. Get there early — the wait is real.",
+        "author": {
+          "name": "Priya Nair",
+          "role": "Regular Guest",
+          "avatar": ""
+        },
+        "rating": 5
+      },
+      {
+        "quote": "As a vegetarian, I often feel like an afterthought at Mexican restaurants. Not here. Half the menu works for me and every dish tastes intentional, not adapted.",
+        "author": {
+          "name": "Ethan Garza",
+          "role": "Regular Guest",
+          "avatar": ""
+        },
+        "rating": 5
+      }
+    ],
+    "layout": "carousel"
+  },
+  "pricing": {
+    "headline": "The Menu",
+    "subheadline": "Seasonal dishes made with ingredients from Central Texas farms and ranches. Menu changes weekly — these are our current favorites.",
+    "tiers": [
+      {
+        "name": "Starters",
+        "price": { "monthly": 0 },
+        "description": "Small plates to share",
+        "features": [
+          { "text": "Wood-Fired Elote — cotija, lime aioli, chili crisp — $9", "included": true },
+          { "text": "Ceviche Tostadas — gulf shrimp, avocado, habanero tiger's milk — $14", "included": true },
+          { "text": "Queso Fundido — Oaxaca cheese, chorizo, house tortillas — $12", "included": true },
+          { "text": "Guacamole Trio — classic, mango-habanero, roasted garlic — $11", "included": true },
+          { "text": "Sopa de Tortilla — ancho broth, avocado, crema — $8", "included": true }
+        ],
+        "cta": { "label": "Reserve a Table", "href": "#rsvp" }
+      },
+      {
+        "name": "Mains",
+        "price": { "monthly": 0 },
+        "description": "Plates and platters",
+        "features": [
+          { "text": "Mole Negro — free-range chicken, 28-ingredient mole, sesame — $26", "included": true },
+          { "text": "Brisket Barbacoa Tacos — 14-hr smoked brisket, pickled onion, salsa verde — $18", "included": true },
+          { "text": "Catch of the Day — grilled with mango-chipotle glaze, black beans, rice — $24", "included": true },
+          { "text": "Carnitas Plate — crispy Berkshire pork, pineapple salsa, hand-pressed tortillas — $22", "included": true },
+          { "text": "Enchiladas Suizas — roasted poblano, tomatillo crema, queso fresco — $19", "included": true },
+          { "text": "Grilled Cauliflower Steak — mole rojo, pepitas, pickled chili (V) — $18", "included": true }
+        ],
+        "cta": { "label": "Reserve a Table", "href": "#rsvp" },
+        "highlighted": true
+      },
+      {
+        "name": "Cocktails",
+        "price": { "monthly": 0 },
+        "description": "Bar and beverages",
+        "features": [
+          { "text": "Oaxacan Old Fashioned — mezcal, agave, mole bitters — $15", "included": true },
+          { "text": "Tamarind Margarita — reposado tequila, tamarind, lime, Tajín rim — $14", "included": true },
+          { "text": "Horchata Cold Brew — house horchata, cold brew, cinnamon — $7", "included": true },
+          { "text": "Paloma Fresca — blanco tequila, grapefruit, soda, rosemary — $13", "included": true },
+          { "text": "Mezcal Flight — three selections with sal de gusano — $22", "included": true },
+          { "text": "Agua Frescas — rotating seasonal flavors — $5", "included": true }
+        ],
+        "cta": { "label": "Reserve a Table", "href": "#rsvp" }
+      }
+    ],
+    "currency": "USD"
+  },
+  "map": {
+    "variant": "embed",
+    "center": {
+      "lat": 30.2592,
+      "lng": -97.7386
+    },
+    "zoom": 15,
+    "address": {
+      "street": "84 Rainey Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "showDirectionsLink": true,
+    "contactCard": {
+      "name": "Mesa Verde Kitchen",
+      "phone": "(512) 555-0238",
+      "email": "hello@mesaverdekitchen.com",
+      "hours": "Tue–Thu 5–10 PM | Fri–Sat 5–11 PM | Brunch Sat–Sun 10 AM–2 PM"
+    }
+  },
+  "rsvp": {
+    "eventName": "Table Reservation at Mesa Verde Kitchen",
+    "fields": ["name", "email", "phone", "guests", "message"],
+    "maxGuests": 12,
+    "declineOption": false
+  },
+  "social": {
+    "url": "",
+    "title": "Mesa Verde Kitchen — Farm-to-Table Mexican Cuisine in Austin",
+    "platforms": ["twitter", "facebook", "linkedin", "email", "copy"],
+    "variant": "horizontal"
+  },
+  "footer": {
+    "brand": {
+      "name": "Mesa Verde Kitchen",
+      "description": "Modern Mexican cuisine crafted from locally sourced ingredients. East Austin since 2018."
+    },
+    "linkGroups": [
+      {
+        "title": "Visit",
+        "links": [
+          { "label": "Menu", "href": "#pricing" },
+          { "label": "Reservations", "href": "#rsvp" },
+          { "label": "Private Events", "href": "#rsvp" },
+          { "label": "Directions", "href": "#map" }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          { "label": "Instagram", "href": "#" },
+          { "label": "Facebook", "href": "#" },
+          { "label": "Press Inquiries", "href": "mailto:press@mesaverdekitchen.com" },
+          { "label": "Careers", "href": "mailto:jobs@mesaverdekitchen.com" }
+        ]
+      }
+    ],
+    "copyright": "2024 Mesa Verde Kitchen. All rights reserved."
+  }
+}

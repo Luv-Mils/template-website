@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "brand": {
+      "name": "Coastal Conservation Alliance"
+    },
+    "links": [
+      { "label": "Home", "href": "#hero" },
+      { "label": "Programs", "href": "#services" },
+      { "label": "Our Story", "href": "#timeline" },
+      { "label": "Team", "href": "#team" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Donate Now",
+      "href": "#cta"
+    }
+  },
+  "hero": {
+    "variant": "centered",
+    "headline": "Protecting Our Shores for Future Generations",
+    "subheadline": "The Coastal Conservation Alliance unites volunteers, scientists, and communities to preserve marine ecosystems through hands-on cleanups, education, and policy advocacy along the Atlantic coast.",
+    "primaryCTA": {
+      "label": "Join the Movement",
+      "href": "#cta"
+    },
+    "secondaryCTA": {
+      "label": "See Our Impact",
+      "href": "#stats"
+    },
+    "backgroundImage": "",
+    "badges": ["501(c)(3) Nonprofit", "Est. 2014"]
+  },
+  "stats": {
+    "items": [
+      { "value": 500, "suffix": "+", "label": "Beach Cleanups Completed" },
+      { "value": 25000, "label": "Volunteers Mobilized" },
+      { "value": 150, "label": "Miles of Coastline Protected" },
+      { "value": 12, "label": "Years of Conservation" }
+    ],
+    "layout": "grid",
+    "animateOnScroll": true
+  },
+  "services": {
+    "headline": "Our Programs",
+    "subheadline": "Six core initiatives driving measurable change for coastal and marine ecosystems",
+    "columns": 3,
+    "items": [
+      {
+        "title": "Beach Cleanup Initiative",
+        "description": "Organizing monthly community cleanups at 30+ coastal sites. We remove plastics, microplastics, and marine debris while collecting data that informs our policy work and tracks pollution trends over time."
+      },
+      {
+        "title": "Marine Education",
+        "description": "Partnering with schools and community centers to deliver hands-on marine science curriculum. Over 8,000 students have participated in our tide pool excursions, coral workshops, and ocean literacy programs."
+      },
+      {
+        "title": "Policy Advocacy",
+        "description": "Working with state and federal legislators to strengthen coastal protection laws. Our team has contributed to four pieces of environmental legislation including single-use plastic restrictions and marine sanctuary designations."
+      },
+      {
+        "title": "Wildlife Monitoring",
+        "description": "Training citizen scientists to track nesting sea turtles, migratory shorebirds, and marine mammal populations. Our monitoring data feeds into national databases used by NOAA and the Fish & Wildlife Service."
+      },
+      {
+        "title": "Community Outreach",
+        "description": "Hosting public lectures, film screenings, and seasonal festivals that connect people with our coastline. Our annual Shore Festival draws 5,000 attendees and raises awareness across the region."
+      },
+      {
+        "title": "Coral Restoration",
+        "description": "Operating two offshore coral nurseries where we grow and transplant resilient coral species. Since 2019, we have planted over 3,000 coral fragments across degraded reef sections with an 82% survival rate."
+      }
+    ]
+  },
+  "timeline": {
+    "headline": "Our Journey",
+    "items": [
+      {
+        "date": "2014",
+        "title": "Founded",
+        "description": "Coastal Conservation Alliance incorporated as a 501(c)(3) by a group of marine biologists and concerned citizens in Wilmington, North Carolina."
+      },
+      {
+        "date": "2015",
+        "title": "First Major Cleanup",
+        "description": "Organized our inaugural coastwide cleanup event, mobilizing 400 volunteers across 12 beaches and removing 8,200 pounds of debris in a single weekend."
+      },
+      {
+        "date": "2017",
+        "title": "Education Program Launch",
+        "description": "Launched our Marine Education initiative in partnership with 15 local schools, bringing ocean science curriculum to 2,000 students in the first year."
+      },
+      {
+        "date": "2019",
+        "title": "State Partnership",
+        "description": "Signed a formal partnership with the North Carolina Department of Environmental Quality, gaining access to protected research zones and state funding."
+      },
+      {
+        "date": "2021",
+        "title": "100,000 Pounds Removed",
+        "description": "Reached the milestone of removing 100,000 pounds of marine debris from coastal ecosystems since our founding, with data published in three peer-reviewed journals."
+      },
+      {
+        "date": "2023",
+        "title": "National Recognition",
+        "description": "Received the National Environmental Achievement Award from the EPA and expanded operations to cover 150 miles of coastline across three states."
+      }
+    ],
+    "layout": "vertical",
+    "alternating": true
+  },
+  "team": {
+    "headline": "Our Leadership",
+    "subheadline": "Dedicated professionals leading the charge for coastal preservation",
+    "members": [
+      {
+        "name": "Dr. Elena Vasquez",
+        "title": "Executive Director",
+        "bio": "Marine biologist with 18 years of conservation experience. Former NOAA researcher specializing in coral reef ecology and coastal resilience. Leads organizational strategy and government partnerships.",
+        "photo": ""
+      },
+      {
+        "name": "Marcus Chen",
+        "title": "Program Manager",
+        "bio": "Oversees all six core programs and coordinates a network of 200+ active volunteers. Brings a decade of nonprofit operations experience from the Sierra Club and National Audubon Society.",
+        "photo": ""
+      },
+      {
+        "name": "Dr. Sarah Okafor",
+        "title": "Research Lead",
+        "bio": "PhD in Marine Ecology from Duke University. Manages our wildlife monitoring program and coral restoration nurseries. Published 12 peer-reviewed papers on coastal ecosystem health.",
+        "photo": ""
+      },
+      {
+        "name": "Jamie Rivera",
+        "title": "Community Coordinator",
+        "bio": "Leads volunteer recruitment, school partnerships, and public events. Grew our volunteer base from 2,000 to 25,000 over five years through grassroots engagement and social media outreach.",
+        "photo": ""
+      }
+    ],
+    "columns": 4,
+    "variant": "cards"
+  },
+  "cta": {
+    "headline": "Join the Movement to Protect Our Coast",
+    "description": "Every dollar funds cleanups, education, and advocacy that keep our shores healthy. Every volunteer hour multiplies our impact. Whether you give time or treasure, you are making a measurable difference.",
+    "primaryCTA": {
+      "label": "Donate Now",
+      "href": "#contact"
+    },
+    "secondaryCTA": {
+      "label": "Volunteer With Us",
+      "href": "#contact"
+    },
+    "variant": "highlight"
+  },
+  "contact": {
+    "fields": ["name", "email", "phone", "message"],
+    "requiredFields": ["name", "email", "message"],
+    "successMessage": "Thank you for reaching out. Our team will respond within 48 hours.",
+    "submitLabel": "Send Message",
+    "headline": "Get Involved",
+    "description": "Have questions about volunteering, donating, or partnering with us? We would love to hear from you."
+  },
+  "footer": {
+    "brand": {
+      "name": "Coastal Conservation Alliance",
+      "description": "Protecting marine ecosystems through community action, education, and policy advocacy since 2014."
+    },
+    "linkGroups": [
+      {
+        "title": "Programs",
+        "links": [
+          { "label": "Beach Cleanups", "href": "#services" },
+          { "label": "Marine Education", "href": "#services" },
+          { "label": "Coral Restoration", "href": "#services" }
+        ]
+      },
+      {
+        "title": "Organization",
+        "links": [
+          { "label": "Our Story", "href": "#timeline" },
+          { "label": "Leadership", "href": "#team" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "label": "Donate", "href": "#cta" },
+          { "label": "Volunteer", "href": "#contact" },
+          { "label": "Partner With Us", "href": "#contact" }
+        ]
+      }
+    ],
+    "copyright": "2024 Coastal Conservation Alliance. All rights reserved. 501(c)(3) Tax ID: 47-2583961"
+  }
+}

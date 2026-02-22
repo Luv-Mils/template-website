@@ -1,0 +1,135 @@
+{
+  "id": "nonprofit",
+  "name": "Nonprofit & Community",
+  "description": "Mission-driven organizations — charities, foundations, advocacy groups, community organizations, and volunteer networks.",
+  "category": "website",
+  "sections": [
+    {
+      "id": "hero",
+      "component": "HeroSection",
+      "domain": "content",
+      "required": true,
+      "contentKey": "hero",
+      "page": "home"
+    },
+    {
+      "id": "stats",
+      "component": "StatsCounter",
+      "domain": "content",
+      "required": false,
+      "contentKey": "stats",
+      "page": "home"
+    },
+    {
+      "id": "cta",
+      "component": "CTABanner",
+      "domain": "content",
+      "required": true,
+      "contentKey": "cta",
+      "page": "home"
+    },
+    {
+      "id": "services",
+      "component": "ServicesGrid",
+      "domain": "content",
+      "required": true,
+      "contentKey": "services",
+      "page": "programs"
+    },
+    {
+      "id": "timeline",
+      "component": "TimelineDisplay",
+      "domain": "content",
+      "required": false,
+      "contentKey": "timeline",
+      "page": "programs"
+    },
+    {
+      "id": "team",
+      "component": "TeamGrid",
+      "domain": "content",
+      "required": false,
+      "contentKey": "team",
+      "page": "about"
+    },
+    {
+      "id": "contact",
+      "component": "ContactForm",
+      "domain": "communication",
+      "required": true,
+      "contentKey": "contact",
+      "page": "contact"
+    }
+  ],
+  "axes": {
+    "layouts": [
+      {
+        "id": "single-page",
+        "name": "Single Page",
+        "description": "All sections stacked on one scrolling page with anchor navigation"
+      },
+      {
+        "id": "multi-page",
+        "name": "Multi-Page",
+        "description": "Separate pages for home, programs, about, and contact with top navigation"
+      },
+      {
+        "id": "minimal",
+        "name": "Minimal",
+        "description": "Focused layout with hero, impact stats, and a strong call to action"
+      }
+    ],
+    "themes": [
+      {
+        "id": "ocean",
+        "name": "Ocean",
+        "description": "Cool blues and teals reflecting water, trust, and environmental stewardship"
+      },
+      {
+        "id": "forest",
+        "name": "Forest",
+        "description": "Deep greens and earth tones evoking nature, growth, and sustainability"
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "description": "Warm amber and coral tones conveying hope, energy, and community warmth"
+      }
+    ],
+    "typography": [
+      {
+        "id": "modern",
+        "name": "Modern",
+        "description": "Clean sans-serif type with strong hierarchy and generous spacing"
+      },
+      {
+        "id": "classic",
+        "name": "Classic",
+        "description": "Traditional serif headings paired with readable sans-serif body"
+      },
+      {
+        "id": "friendly",
+        "name": "Friendly",
+        "description": "Rounded, approachable type that feels warm and accessible"
+      }
+    ]
+  },
+  "defaults": {
+    "layout": "single-page",
+    "theme": "ocean",
+    "typography": "modern"
+  },
+  "contentSchema": [
+    { "key": "hero.headline", "type": "text", "label": "Main Headline", "description": "Primary headline shown above the fold", "required": true, "maxLength": 80 },
+    { "key": "hero.subheadline", "type": "text", "label": "Subheadline", "description": "Supporting text below the headline", "required": true, "maxLength": 160 },
+    { "key": "services.headline", "type": "text", "label": "Programs Heading", "description": "Title for the programs section", "required": true, "maxLength": 60 },
+    { "key": "services.items", "type": "list", "label": "Programs", "description": "List of programs and initiatives", "required": true },
+    { "key": "stats.items", "type": "list", "label": "Impact Stats", "description": "Key impact numbers to highlight", "required": false },
+    { "key": "timeline.items", "type": "list", "label": "Milestones", "description": "Organization milestones and history", "required": false },
+    { "key": "team.members", "type": "list", "label": "Team Members", "description": "Board members and staff", "required": false },
+    { "key": "contact.headline", "type": "text", "label": "Contact Heading", "description": "Heading for the contact form area", "required": true, "maxLength": 60 },
+    { "key": "cta.headline", "type": "text", "label": "CTA Headline", "description": "Donate or volunteer call to action", "required": true, "maxLength": 80 }
+  ],
+  "keywords": ["nonprofit", "charity", "foundation", "conservation", "volunteer", "community", "advocacy", "environment", "donation", "mission"],
+  "primaryDomains": ["content", "communication"]
+}
