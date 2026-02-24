@@ -77,7 +77,9 @@ function SectionRenderer({
   const Component = components[component];
   if (!Component) return null;
 
-  const config = { ...content, ...DEFAULT_HANDLERS[sectionId] };
+  // Defensive defaults: ensure arrays/strings exist even when content.json is missing.
+    // Without this, components crash on .items.map() when content falls back to empty defaults.
+    const config = { heading: '', subheading: '', items: [], ...content, ...DEFAULT_HANDLERS[sectionId] };
 
   return (
     <section id={sectionId}>
@@ -266,9 +268,13 @@ export default function App() {
         brand: { name: siteContent.businessName || chassisConfig.name },
       };
 
-      // Build footer content from site metadata
+      // Build footer content from site metadata — include required fields for Footer component
       content.footer = {
-        brand: { name: siteContent.businessName || chassisConfig.name },
+        brand: {
+          name: siteContent.businessName || chassisConfig.name,
+          description: siteContent.description || '',
+        },
+        linkGroups: [],
         tagline: siteContent.tagline,
       };
 
