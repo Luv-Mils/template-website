@@ -4,7 +4,8 @@ import { ThemeProvider, Navbar, Footer } from './shared/foundation';
 import { resolveConfig } from './config/template';
 import { getTheme, getTypography } from './config/theme';
 import { buildLayout } from './config/layouts';
-import { loadChassis, loadContent } from './chassis';
+import { loadChassis } from './chassis';
+import { getContent } from './lib/content-loader';
 import type { ChassisConfig } from './chassis/types';
 import type { LayoutDef } from './config/layouts';
 
@@ -247,14 +248,42 @@ export default function App() {
       const vibeConfig = resolveConfig();
       const chassisConfig = await loadChassis(vibeConfig.chassis);
 
-      // Load fallback content, then merge user overrides
-      const fallbackContent = await loadContent(vibeConfig.chassis);
+      // Load AI-generated content from /content.json (with defensive fallbacks).
+      // getContent() normalizes every field and returns DEFAULT_CONTENT if the
+      // file is missing, so the app always renders — even without AI content.
+      const siteContent = await getContent();
+
+      // Flatten SiteContent into the component-expected flat content map.
+      // Components receive content[section.contentKey] as their config prop.
+      const content: Record<string, unknown> = {};
+
+      for (const [key, section] of Object.entries(siteContent.sections)) {
+        content[key] = section;
+      }
+
+      // Build nav content from site metadata
+      content.nav = {
+        brand: { name: siteContent.businessName || chassisConfig.name },
+      };
+
+      // Build footer content from site metadata
+      content.footer = {
+        brand: { name: siteContent.businessName || chassisConfig.name },
+        tagline: siteContent.tagline,
+      };
+
+      // Set document title from AI-generated meta
+      if (siteContent.meta?.title && siteContent.meta.title !== 'My Business') {
+        document.title = siteContent.meta.title;
+      }
+
+      // Apply vibe.config content overrides (query param overrides)
       if (vibeConfig.content) {
         for (const [key, val] of Object.entries(vibeConfig.content)) {
-          if (typeof val === 'object' && val !== null && typeof fallbackContent[key] === 'object') {
-            fallbackContent[key] = { ...(fallbackContent[key] as object), ...(val as object) };
+          if (typeof val === 'object' && val !== null && typeof content[key] === 'object') {
+            content[key] = { ...(content[key] as object), ...(val as object) };
           } else {
-            fallbackContent[key] = val;
+            content[key] = val;
           }
         }
       }
@@ -278,7 +307,7 @@ export default function App() {
       });
       await Promise.all(loadPromises);
 
-      setState({ chassis: chassisConfig, content: fallbackContent, components: loaded, layout: layoutDef, theme, typography });
+      setState({ chassis: chassisConfig, content, components: loaded, layout: layoutDef, theme, typography });
     }
 
     init();
