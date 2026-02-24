@@ -80,9 +80,13 @@ function normalizeSection(raw: unknown): ContentSection {
   }
   const obj = raw as Record<string, unknown>;
 
-  const section: ContentSection = {
-    heading: typeof obj.heading === 'string' ? obj.heading : '',
-  };
+  // Start with raw pass-through: preserve component-specific fields
+  // (members, tiers, fields, services, etc.) that ContentSection doesn't define.
+  // Components receive these as config props via SectionRenderer.
+  const section: ContentSection = { ...(obj as ContentSection), heading: '' };
+
+  // Validate known fields (override raw values with normalized versions)
+  section.heading = typeof obj.heading === 'string' ? obj.heading : '';
 
   if (typeof obj.subheading === 'string') {
     section.subheading = obj.subheading;

@@ -59,6 +59,21 @@ const DEFAULT_HANDLERS: Record<string, Record<string, unknown>> = {
   },
 };
 
+
+// ---------------------------------------------------------------------------
+// Per-component default arrays — bridges ContentSection → component config.
+// Content generation produces { heading, subheading, items, cta }, but
+// components expect different array names (members, tiers, fields, etc).
+// These defaults prevent .map() crashes when content doesn't include them.
+// ---------------------------------------------------------------------------
+
+const COMPONENT_DEFAULTS: Record<string, Record<string, unknown>> = {
+  TeamGrid: { members: [] },
+  PricingTable: { tiers: [], billingToggle: false },
+  ContactForm: { fields: ['name', 'email', 'message'] },
+  BookingFlow: { services: [], steps: ['service', 'date', 'info', 'confirm'] },
+};
+
 // ---------------------------------------------------------------------------
 // Section renderer
 // ---------------------------------------------------------------------------
@@ -77,9 +92,22 @@ function SectionRenderer({
   const Component = components[component];
   if (!Component) return null;
 
-  // Defensive defaults: ensure arrays/strings exist even when content.json is missing.
-    // Without this, components crash on .items.map() when content falls back to empty defaults.
-    const config = { heading: '', subheading: '', items: [], ...content, ...DEFAULT_HANDLERS[sectionId] };
+  // Defensive defaults — three layers:
+  // 1. Generic defaults (heading, subheading, items)
+  // 2. Component-specific defaults (members, tiers, fields, etc.)
+  // 3. Content overrides from content.json
+  // 4. Handler overrides (onSubmit, onComplete)
+  const componentDefaults = COMPONENT_DEFAULTS[component] ?? {};
+  const config: Record<string, unknown> = {
+    heading: '', subheading: '', items: [],
+    ...componentDefaults,
+    ...content,
+    ...DEFAULT_HANDLERS[sectionId],
+  };
+
+  // Bridge naming: content uses heading/subheading, some components use headline/subheadline
+  if (!config.headline && config.heading) config.headline = config.heading;
+  if (!config.subheadline && config.subheading) config.subheadline = config.subheading;
 
   return (
     <section id={sectionId}>
