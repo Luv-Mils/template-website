@@ -72,6 +72,9 @@ const COMPONENT_DEFAULTS: Record<string, Record<string, unknown>> = {
   PricingTable: { tiers: [], billingToggle: false },
   ContactForm: { fields: ['name', 'email', 'message'] },
   BookingFlow: { services: [], steps: ['service', 'date', 'info', 'confirm'] },
+  MapIntegration: { center: { lat: 0, lng: 0 }, markers: [], showDirectionsLink: false },
+  CTABanner: { primaryCTA: { href: '#', label: 'Get Started' } },
+  SocialShareBar: { platforms: [] },
 };
 
 // ---------------------------------------------------------------------------
